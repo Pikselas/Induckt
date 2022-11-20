@@ -1,0 +1,349 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@import url("https://fonts.googleapis.com/css?family=Space+Grotesk:700");
+
+.screen textarea:focus,
+.screen input:focus {
+  outline: none;
+}
+
+.screen * {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+.screen div {
+  -webkit-text-size-adjust: none;
+}
+
+.component-wrapper a {
+  display: contents;
+  pointer-events: auto;
+  text-decoration: none;
+}
+
+.component-wrapper * {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  pointer-events: none;
+}
+
+.component-wrapper a *,
+.component-wrapper input,
+.component-wrapper video,
+.component-wrapper iframe {
+  pointer-events: auto;
+}
+
+.component-wrapper.not-ready,
+.component-wrapper.not-ready * {
+  visibility: hidden !important;
+}
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.full-width-a {
+  width: 100%;
+}
+
+.full-height-a {
+  height: 100%;
+}
+
+.container-center-vertical {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  pointer-events: none;
+}
+
+.container-center-vertical > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.auto-animated div {
+  --z-index: -1;
+  opacity: 0;
+  position: absolute;
+}
+
+.auto-animated input {
+  --z-index: -1;
+  opacity: 0;
+  position: absolute;
+}
+
+.auto-animated .container-center-vertical,
+.auto-animated .container-center-horizontal {
+  opacity: 1;
+}
+
+.overlay-base {
+  display: none;
+  height: 100%;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.overlay-base.animate-appear {
+  align-items: center;
+  animation: reveal 0.3s ease-in-out 1 normal forwards;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+}
+
+.overlay-base.animate-disappear {
+  animation: reveal 0.3s ease-in-out 1 reverse forwards;
+  display: block;
+  opacity: 1;
+  pointer-events: none;
+}
+
+.overlay-base.animate-disappear * {
+  pointer-events: none;
+}
+
+@keyframes reveal {
+  from { opacity: 0 }
+ to { opacity: 1 }
+}
+
+.animate-nodelay {
+  animation-delay: 0s;
+}
+
+.align-self-flex-start {
+  align-self: flex-start;
+}
+
+.align-self-flex-end {
+  align-self: flex-end;
+}
+
+.align-self-flex-center {
+  align-self: flex-center;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.valign-text-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+input:focus {
+  outline: none;
+}
+
+.listeners-active,
+.listeners-active * {
+  pointer-events: auto;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.smart-layers-pointers,
+.smart-layers-pointers * {
+  pointer-events: auto;
+  visibility: visible;
+}
+
+.listeners-active-click,
+.listeners-active-click * {
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+:root { 
+  --black: #000000;
+  --visual-colorred-c4: #f91100;
+  --white: #ffffff;
+ 
+  --font-size-m: 32px;
+ 
+  --font-family-space_grotesk: "Space Grotesk", Helvetica;
+}
+.spacegrotesk-bold-white-32px {
+  color: var(--white);
+  font-family: var(--font-family-space_grotesk);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+:root {
+}
+
+
+/* screen - visuals-page-15 */
+
+.visuals-page-15 {
+  background-color: var(--white);
+  border: 1px none;
+  height: 820px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1440px;
+}
+
+.visuals-page-15 .rectangle-6316-TPEnWx {
+  background-color: var(--black);
+  border: 1px none;
+  height: 820px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1440px;
+}
+
+.visuals-page-15 .rectangle-70-TPEnWx {
+  background-color: var(--visual-colorred-c4);
+  border: 4px solid;
+  border-color: var(--visual-colorred-c4);
+  height: 277px;
+  left: 1133px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 744px;
+  width: 130px;
+}
+
+.visuals-page-15 .rectangle-74-TPEnWx {
+  background-color: transparent;
+  border: 10px solid;
+  border-color: #bf1003;
+  height: 282px;
+  left: 1221px;
+  position: absolute;
+  top: 637px;
+  width: 175px;
+}
+
+.visuals-page-15 .group-48096641-TPEnWx {
+  background-color: transparent;
+  height: 62px;
+  left: 1308px;
+  position: absolute;
+  top: 19px;
+  width: 62px;
+}
+
+.visuals-page-15 .ellipse-1-1EUvmH {
+  background-color: var(--white);
+  border: 0.6111111044883728px none;
+  border-radius: 31px;
+  height: 62px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 62px;
+}
+
+.visuals-page-15 .x-1EUvmH {
+  background-color: transparent;
+  height: 24px;
+  left: 19px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 19px;
+  width: 24px;
+}
+
+.visuals-page-15 .frame-48096753-TPEnWx {
+  align-items: flex-start;
+  background-color: transparent;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 71px;
+  height: auto;
+  left: 160px;
+  position: absolute;
+  top: 100px;
+  width: fit-content;
+}
+
+.visuals-page-15 .frame-48096752-UkZDs1 {
+  align-items: flex-start;
+  background-color: transparent;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: auto;
+  position: relative;
+  width: fit-content;
+}
+
+.visuals-page-15 .title-cBrQyF {
+  background-color: transparent;
+  color: var(--visual-colorred-c4);
+  font-family: var(--font-family-space_grotesk);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 3.20px;
+  line-height: normal;
+  margin-top: -1.00px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+  width: fit-content;
+}
+
+.visuals-page-15 .rectangle-31-cBrQyF {
+  background-color: var(--visual-colorred-c4);
+  border: 1px none;
+  height: 8px;
+  min-width: 242px;
+  mix-blend-mode: normal;
+  position: relative;
+}
+
+.visuals-page-15 .NormalBox {
+  background-color: transparent;
+  letter-spacing: 3.20px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+  width: fit-content;
+  cursor: pointer;
+}
