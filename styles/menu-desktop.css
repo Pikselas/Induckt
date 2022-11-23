@@ -346,4 +346,5 @@ input:focus {
   text-align: left;
   width: fit-content;
   cursor: pointer;
+  font-size: 35px;
 }
