@@ -3572,7 +3572,25 @@
               COVER THE JOURNEY FROM ZERO TO ONE AT THE SPED OF LIGTH!!</p>
           </div>
         </div>
-        <div class="group-48096744-YXZWSl" data-id="326:3245">
+        <script>
+           function LoadPitch()
+           {
+            let Frame = document.createElement("iframe");
+            Frame.src = "./pitch.html";
+            document.body.appendChild(Frame);
+            Frame.style.width = "100%";
+            Frame.style.height = "100%";
+            Frame.style.position = "fixed";
+            Frame.style.top = "0";
+            setTimeout(()=>{
+                Frame.contentWindow.document.getElementById("PitchClose").onclick = function()
+                {
+                    Frame.remove();
+                }
+              },2000);
+           }
+        </script>
+        <div class="group-48096744-YXZWSl" onclick = "LoadPitch()" data-id="326:3245">
           <div class="upload-your-pitch-deck-kbCcwm heading-boldh1-30" data-id="326:3246">Upload Your Pitch Deck</div>
           <div class="frame-48096712-kbCcwm" data-id="326:3247">
             <div class="group-48096697-YxA1tW" data-id="326:3248">
