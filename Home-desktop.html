@@ -3582,12 +3582,12 @@
             Frame.style.height = "100%";
             Frame.style.position = "fixed";
             Frame.style.top = "0";
-            setTimeout(()=>{
+            Frame.contentWindow.onload = ()=>{
                 Frame.contentWindow.document.getElementById("PitchClose").onclick = function()
                 {
                     Frame.remove();
                 }
-              },2000);
+              }
            }
         </script>
         <div class="group-48096744-YXZWSl" onclick = "LoadPitch()" data-id="326:3245">
