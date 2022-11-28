@@ -475,7 +475,7 @@
       overflow: hidden;
       overflow-x: hidden;
       position: relative;
-      width: 390px;
+      width: 100%;
     }
 
     .visuals-page-03 .rectangle-6357-xj49YD {
@@ -486,7 +486,7 @@
       mix-blend-mode: normal;
       position: absolute;
       top: 0px;
-      width: 390px;
+      width: 100%;
     }
 
     .visuals-page-03 .group-36-xj49YD {
@@ -572,7 +572,7 @@
       left: 0px;
       position: absolute;
       top: 7278px;
-      width: 390px;
+      width: 100%;
     }
 
     .visuals-page-03 .group-48096704-qB8yiN {
@@ -581,7 +581,7 @@
       left: 0px;
       position: absolute;
       top: 0px;
-      width: 390px;
+      width: 100%;
     }
 
     .visuals-page-03 .rectangle-50-rLWxw7 {
@@ -592,7 +592,7 @@
       mix-blend-mode: normal;
       position: absolute;
       top: 0px;
-      width: 390px;
+      width: 100%;
     }
 
     .visuals-page-03 .group-48096703-rLWxw7 {
@@ -716,7 +716,7 @@
       left: 0px;
       position: absolute;
       top: 361px;
-      width: 390px;
+      width: 100%;
     }
 
     .visuals-page-03 .group-48096643-j2LKiP {
@@ -725,7 +725,7 @@
       left: 0px;
       position: absolute;
       top: 0px;
-      width: 390px;
+      width: 100%;
     }
 
     .visuals-page-03 .rectangle-49-fuRpal {
@@ -736,7 +736,7 @@
       mix-blend-mode: normal;
       position: relative;
       top: 0px;
-      width: 390px;
+      width: 100%;
     }
 
     .visuals-page-03 .group-48096701-j2LKiP {
@@ -1807,7 +1807,7 @@
       mix-blend-mode: normal;
       position: absolute;
       top: 3554px;
-      width: 390px;
+      width: 100%;
     }
 
     .visuals-page-03 .frame-48096738-xj49YD {
@@ -2108,8 +2108,9 @@
       left: 15px;
       position: absolute;
       top: 6px;
-      transform: rotate(35.03deg);
+      /* transform: rotate(35.03deg); */
       width: 42px;
+      animation: ANM 1s ease-in-out infinite;
     }
 
     .visuals-page-03 .rectangle-6350-hxr5Rx {
@@ -2144,7 +2145,7 @@
       mix-blend-mode: normal;
       position: absolute;
       top: 4758px;
-      width: 390px;
+      width: 100%;
     }
 
     .visuals-page-03 .frame-48096744-xj49YD {
@@ -3062,6 +3063,13 @@
       #anima-watermark-link .text {
         display: none !important;
       }
+    }
+  </style>
+  <style>
+    @keyframes ANM
+    {
+      0% {transform:rotate(0deg);}
+      100% {transform: rotate(360deg);}
     }
   </style>
 </head>
