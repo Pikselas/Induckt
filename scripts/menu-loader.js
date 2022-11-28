@@ -1,7 +1,7 @@
 function loadMenuDesktop(MenuName)
 {
   let mode = "desktop";
-    let jso = {"Home":null , "Portfolio":null , "About":null , "Contact":null , "Register Startup":null};
+    let jso = {"Home":null , "Portfolio":null , "Team":null, "About":null , "Contact":null , "Register Startup":null};
     jso[MenuName] = `<div class="frame-48096752-UkZDs1" data-id="326:5136">
     <h1 class="title-cBrQyF" data-id="326:5137">${MenuName}</h1>
     <div class="rectangle-31-cBrQyF" data-id="326:5138"></div>
@@ -49,7 +49,7 @@ document.body.appendChild(mn);
 function loadMenuMobile(MenuName)
 {
   let mode = "mobile";
-    let jso = {"Home":null , "Portfolio":null , "About":null , "Contact":null , "Register Startup":null};
+    let jso = {"Home":null , "Portfolio":null ,"Team":null, "About":null , "Contact":null , "Register Startup":null};
     jso[MenuName] = `<div class="frame-48096754-ihwxig" data-id="326:5146">
     <h1 class="title-x8ejf9" data-id="326:5111">${MenuName}</h1>
     <div class="rectangle-31-x8ejf9" data-id="326:5107"></div>

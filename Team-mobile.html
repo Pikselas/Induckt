@@ -1,13 +1,7 @@
 <!DOCTYPE html>
-<!-- This code was generated using AnimaApp.com. 
-This code is a high-fidelity prototype.
-Get developer-friendly React or HTML/CSS code for this project at: https://projects.animaapp.com?utm_source=hosted-code 
-28/11/2022 13:04:58 -->
 <html>
 
 <head>
-  <script src="./scripts/menu-loader.js"></script>
-  <script src="./scripts/detect-mobile.js"></script>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <style type="text/css">
     .turbo-progress-bar {
@@ -24,6 +18,9 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
       transform: translate3d(0, 0, 0);
     }
   </style>
+  <link rel="stylesheet" href="./styles/menu-mobile.css">
+  <script src="./scripts/menu-loader.js"></script>
+  <script src="./scripts/detect-mobile.js"></script>
   <style id="st_globalStyles">
     /* SCROLLBAR */
 
@@ -103,10 +100,10 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
     }
   </style>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=1440, maximum-scale=1.0">
- <meta name="og:type" content="website">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta name="og:type" content="website">
   <meta name="twitter:card" content="photo">
-  <style id="hotspots-styles">
+   <style id="hotspots-styles">
     .hotspot {
       position: absolute;
       border: 1px solid #2a9fd8;
@@ -121,10 +118,11 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
       display: none !important;
     }
   </style>
-  <style>
+    <style>
     @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
 
-    @import url("https://fonts.googleapis.com/css?family=Poppins:400,700|Space+Grotesk:700");
+    @import url("https://fonts.googleapis.com/css?family=Space+Grotesk:700|Poppins:400,700");
+
     .screen textarea:focus,
     .screen input:focus {
       outline: none;
@@ -319,31 +317,26 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
     :root {
       --black: #000000;
       --visual-colorblack-c1: #0e0e0e;
-      --visual-colorblack-c6: #f8f8f8;
       --visual-colorblack-c7: #fcfcfc;
       --visual-colorred-c2: #92160d;
       --visual-colorred-c4: #f91100;
+      --visual-colorred-c6: #ffc2be;
+      --visual-colorred-c7: #ffedeb;
+      --visual-colorred-c8: #fffaf9;
       --white: #ffffff;
+      --wireframecolor-c3: #eeeeee;
 
-      --font-size-l: 24px;
-      --font-size-m: 18px;
-      --font-size-s: 14px;
-      --font-size-xl: 30px;
-      --font-size-xxl: 48px;
+      --font-size-m: 32px;
+      --font-size-s: 21px;
+      --font-size-xs: 18px;
+      --font-size-xxs: 14px;
+      --font-size-xxxs: 12px;
 
       --font-family-poppins: "Poppins", Helvetica;
       --font-family-space_grotesk: "Space Grotesk", Helvetica;
     }
 
-    .heading-regularh4-18 {
-      font-family: var(--font-family-poppins);
-      font-size: var(--font-size-m);
-      font-style: normal;
-      font-weight: 400;
-      letter-spacing: 0px;
-    }
-
-    .heading-regularh5-14 {
+    .heading-regularh3-21 {
       font-family: var(--font-family-poppins);
       font-size: var(--font-size-s);
       font-style: normal;
@@ -351,17 +344,25 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
       letter-spacing: 0px;
     }
 
-    .heading-boldh1-30 {
+    .heading-regularh5-14 {
       font-family: var(--font-family-poppins);
-      font-size: var(--font-size-xl);
+      font-size: var(--font-size-xxs);
       font-style: normal;
-      font-weight: 700;
+      font-weight: 400;
       letter-spacing: 0px;
     }
 
-    .heading-boldh2-24 {
+    .heading-regularh6-12 {
       font-family: var(--font-family-poppins);
-      font-size: var(--font-size-l);
+      font-size: var(--font-size-xxxs);
+      font-style: normal;
+      font-weight: 400;
+      letter-spacing: 0px;
+    }
+
+    .heading-boldh3-21 {
+      font-family: var(--font-family-poppins);
+      font-size: var(--font-size-s);
       font-style: normal;
       font-weight: 700;
       letter-spacing: 0px;
@@ -369,146 +370,214 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
 
     .heading-boldh4-18 {
       font-family: var(--font-family-poppins);
-      font-size: var(--font-size-m);
+      font-size: var(--font-size-xs);
       font-style: normal;
       font-weight: 700;
       letter-spacing: 0px;
     }
 
+    .spacegrotesk-bold-woodsmoke-32px {
+      color: var(--visual-colorblack-c1);
+      font-family: var(--font-family-space_grotesk);
+      font-size: var(--font-size-m);
+      font-style: normal;
+      font-weight: 700;
+    }
+
+    .spacegrotesk-bold-red-32px {
+      color: var(--visual-colorred-c4);
+      font-family: var(--font-family-space_grotesk);
+      font-size: var(--font-size-m);
+      font-style: normal;
+      font-weight: 700;
+    }
+
     :root {}
 
 
-    /* screen - visuals-page-17 */
+    /* screen - visuals-page-03 */
 
-    .visuals-page-17 {
+    .visuals-page-03 {
       background-color: var(--white);
       border: 1px none;
-      height: 2075px;
+      height: 3124px;
       mix-blend-mode: normal;
       overflow: hidden;
       overflow-x: hidden;
       position: relative;
-      width: 100%;
+      width: 390px;
     }
 
-    .visuals-page-17 .group-48-ECyKP8 {
-      background-color: transparent;
-      height: 820px;
-      left: 969px;
+    .visuals-page-03 .rectangle-6357-xj49YD {
+      background-color: var(--visual-colorred-c7);
+      border: 1px none;
+      height: 781px;
+      left: 0px;
+      mix-blend-mode: normal;
       position: absolute;
-      top: 83px;
-      transform: rotate(97.53deg);
-      width: 803px;
+      top: 0px;
+      width: 390px;
     }
 
-    .visuals-page-17 .ellipse-2-KlxaFc {
+    .visuals-page-03 .ellipse-2-xj49YD {
       background-color: #fd4744;
-      border: 1px none;
-      border-radius: 285px;
-      height: 570px;
-      left: 116px;
+      border: 0.562995195388794px none;
+      border-radius: 160.45px;
+      height: 321px;
+      left: 290px;
       mix-blend-mode: normal;
       position: absolute;
-      top: 116px;
-      transform: rotate(-129.60deg);
-      width: 570px;
+      top: 113px;
+      transform: rotate(-131.53deg);
+      width: 321px;
     }
 
-    .visuals-page-17 .ellipse-4-KlxaFc {
-      background-color: var(--white);
-      border: 1px none;
-      border-radius: 202.05px;
-      height: 404px;
-      left: 199px;
+    .visuals-page-03 .ellipse-4-xj49YD {
+      background-color: var(--visual-colorred-c7);
+      border: 0.562995195388794px none;
+      border-radius: 145.25px;
+      height: 291px;
+      left: 77px;
       mix-blend-mode: normal;
       position: absolute;
-      top: 199px;
-      transform: rotate(-129.60deg);
-      width: 404px;
+      top: 142px;
+      transform: rotate(-131.53deg);
+      width: 291px;
     }
 
-    .visuals-page-17 .rectangle-37-KlxaFc {
+    .visuals-page-03 .rectangle-6343-xj49YD {
+      background-color: transparent;
+      border: 1.125990390777588px solid;
+      border-color: #971f1d;
+      border-radius: 0px 0px 101.3391342163086px 0px;
+      height: 107px;
+      left: 211px;
+      position: absolute;
+      top: 272px;
+      width: 107px;
+    }
+
+    .visuals-page-03 .rectangle-6346-xj49YD {
+      background-color: transparent;
+      height: 34px;
+      left: 211px;
+      mix-blend-mode: normal;
+      position: absolute;
+      top: 272px;
+      width: 35px;
+    }
+
+    .visuals-page-03 .rectangle-6347-xj49YD {
+      background-color: transparent;
+      height: 34px;
+      left: 156px;
+      mix-blend-mode: normal;
+      position: absolute;
+      top: 213px;
+      width: 35px;
+    }
+
+    .visuals-page-03 .rectangle-6344-xj49YD {
+      background-color: transparent;
+      border: 1.125990390777588px solid;
+      border-color: var(--visual-colorred-c4);
+      border-radius: 0px 0px 101.3391342163086px 0px;
+      height: 107px;
+      left: 155px;
+      position: absolute;
+      top: 213px;
+      width: 107px;
+    }
+
+    .visuals-page-03 .ellipse-3-xj49YD {
+      background-color: var(--visual-colorred-c6);
+      border: 1px none;
+      border-radius: 100px;
+      height: 200px;
+      left: -113px;
+      mix-blend-mode: normal;
+      position: absolute;
+      top: 325px;
+      width: 200px;
+    }
+
+    .visuals-page-03 .frame-55-xj49YD {
+      align-items: flex-start;
+      background-color: transparent;
+      border: 1px none;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      height: auto;
+      left: 18px;
+      position: absolute;
+      top: 425px;
+      width: fit-content;
+    }
+
+    .visuals-page-03 .title-sBVMU8 {
+      background-color: transparent;
+      color: transparent;
+      font-family: var(--font-family-space_grotesk);
+      font-size: var(--font-size-m);
+      font-style: normal;
+      font-weight: 700;
+      letter-spacing: 0.00px;
+      line-height: normal;
+      margin-top: -1.00px;
+      position: relative;
+      text-align: left;
+      width: 355px;
+    }
+
+    .visuals-page-03 .span0-xmFpxj {
+      font-style: normal;
+    }
+
+    .visuals-page-03 .span1-xmFpxj {
+      font-style: normal;
+    }
+
+    .visuals-page-03 .span2-xmFpxj {
+      font-style: normal;
+    }
+
+    .visuals-page-03 .span3-xmFpxj {
+      font-style: normal;
+    }
+
+    .visuals-page-03 .rectangle-31-sBVMU8 {
       background-color: var(--visual-colorred-c4);
       border: 1px none;
-      height: 67px;
-      left: 79px;
+      height: 5px;
+      min-width: 138px;
       mix-blend-mode: normal;
-      position: absolute;
-      top: 449px;
-      transform: rotate(-106.79deg);
-      width: 18px;
+      position: relative;
     }
 
-    .visuals-page-17 .rectangle-38-KlxaFc {
-      background-color: #fd474354;
-      border: 1px none;
-      height: 29px;
-      left: 321px;
-      mix-blend-mode: normal;
-      position: absolute;
-      top: 684px;
-      transform: rotate(-167.33deg);
-      width: 18px;
-    }
-
-    .visuals-page-17 .rectangle-39-KlxaFc {
-      background-color: var(--visual-colorred-c4);
-      border: 1px none;
-      height: 67px;
-      left: 368px;
-      mix-blend-mode: normal;
-      position: absolute;
-      top: 692px;
-      transform: rotate(-175.64deg);
-      width: 18px;
-    }
-
-    .visuals-page-17 .rectangle-40-KlxaFc {
-      background-color: #fec2c1;
-      border: 1px none;
-      height: 126px;
-      left: 426px;
-      mix-blend-mode: normal;
-      position: absolute;
-      top: 693px;
-      transform: rotate(-184.51deg);
-      width: 18px;
-    }
-
-    .visuals-page-17 .rectangle-41-KlxaFc {
-      background-color: #fd4744;
-      border: 1px none;
-      height: 91px;
-      left: 475px;
-      mix-blend-mode: normal;
-      position: absolute;
-      top: 683px;
-      transform: rotate(-193.03deg);
-      width: 18px;
-    }
-
-    .visuals-page-17 .rectangle-2-ECyKP8 {
+    .visuals-page-03 .rectangle-6345-xj49YD {
       background-color: transparent;
-      height: 61px;
-      left: 70px;
-      mix-blend-mode: normal;
-      object-fit: cover;
+      border: 1.125990390777588px solid;
+      border-color: #971f1d;
+      border-radius: 0px 0px 101.3391342163086px 0px;
+      height: 107px;
+      left: 99px;
       position: absolute;
-      top: 45px;
-      width: 174px;
+      top: 155px;
+      width: 107px;
     }
 
-    .visuals-page-17 .group-36-ECyKP8 {
+    .visuals-page-03 .group-36-xj49YD {
       background-color: transparent;
       height: 62px;
-      left: 1308px;
+      left: 315px;
       position: absolute;
-      top: 44px;
+      top: 15px;
       width: 62px;
     }
 
-    .visuals-page-17 .ellipse-1-z3tHmC {
-      background-color: #f910000a;
+    .visuals-page-03 .ellipse-1-wqngxM {
+      background-color: var(--visual-colorblack-c1);
       border: 0.6111111044883728px none;
       border-radius: 31px;
       height: 62px;
@@ -519,7 +588,7 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
       width: 62px;
     }
 
-    .visuals-page-17 .group-35-z3tHmC {
+    .visuals-page-03 .group-35-wqngxM {
       background-color: transparent;
       height: 20px;
       left: 19px;
@@ -528,8 +597,8 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
       width: 24px;
     }
 
-    .visuals-page-17 .rectangle-21-4APSs7 {
-      background-color: var(--visual-colorred-c4);
+    .visuals-page-03 .rectangle-21-iXwbjy {
+      background-color: var(--visual-colorblack-c7);
       border: 1px none;
       border-radius: 1.5px;
       height: 2px;
@@ -540,8 +609,8 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
       width: 24px;
     }
 
-    .visuals-page-17 .rectangle-22-4APSs7 {
-      background-color: var(--visual-colorred-c4);
+    .visuals-page-03 .rectangle-22-iXwbjy {
+      background-color: var(--visual-colorblack-c7);
       border: 1px none;
       border-radius: 1.5px;
       height: 2px;
@@ -552,8 +621,8 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
       width: 14px;
     }
 
-    .visuals-page-17 .rectangle-23-4APSs7 {
-      background-color: var(--visual-colorred-c4);
+    .visuals-page-03 .rectangle-23-iXwbjy {
+      background-color: var(--visual-colorblack-c7);
       border: 1px none;
       border-radius: 1.5px;
       height: 2px;
@@ -564,46 +633,416 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
       width: 18px;
     }
 
-    .visuals-page-17 .rectangle-3-ECyKP8 {
-      background-color: var(--visual-colorblack-c6);
-      border: 8px solid;
-      border-color: var(--visual-colorred-c4);
-      height: 829px;
-      left: 70px;
+    .visuals-page-03 .rectangle-2-xj49YD {
+      background-color: transparent;
+      height: 33px;
+      left: 14px;
       mix-blend-mode: normal;
+      object-fit: cover;
       position: absolute;
-      top: 404px;
-      width: 1300px;
+      top: 30px;
+      width: 94px;
     }
 
-    .visuals-page-17 .rectangle-4-ECyKP8 {
-      background-color: var(--visual-colorred-c4);
+    .visuals-page-03 .frame-48096653-xj49YD {
+      background-color: transparent;
       border: 1px none;
-      height: 5px;
-      left: 70px;
-      mix-blend-mode: normal;
+      height: 113px;
+      left: 18px;
       position: absolute;
-      top: 1228px;
-      width: 1300px;
+      top: 881px;
+      width: 224px;
     }
 
-    .visuals-page-17 .frame-55-ECyKP8 {
+    .visuals-page-03 .our-rockstar-team-f1gp60 {
+      background-color: transparent;
+      color: transparent;
+      font-family: var(--font-family-space_grotesk);
+      font-size: var(--font-size-m);
+      font-style: normal;
+      font-weight: 700;
+      height: auto;
+      left: 0px;
+      letter-spacing: 0.00px;
+      line-height: normal;
+      position: absolute;
+      text-align: left;
+      top: -1px;
+      width: 224px;
+    }
+
+    .visuals-page-03 .span0-lUgr2Z {
+      font-style: normal;
+    }
+
+    .visuals-page-03 .span1-lUgr2Z {
+      font-style: normal;
+    }
+
+    .visuals-page-03 .span2-lUgr2Z {
+      font-style: normal;
+    }
+
+    .visuals-page-03 .rectangle-32-f1gp60 {
+      background-color: var(--visual-colorred-c2);
+      border: 1px none;
+      height: 11px;
+      left: 0px;
+      mix-blend-mode: normal;
+      position: absolute;
+      top: 102px;
+      width: 138px;
+    }
+
+    .visuals-page-03 .vector-2-f1gp60 {
+      background-color: transparent;
+      height: 35px;
+      left: 308px;
+      mix-blend-mode: normal;
+      position: absolute;
+      top: 0px;
+      width: 34px;
+    }
+
+    .visuals-page-03 .vector-1-f1gp60 {
+      background-color: transparent;
+      height: 77px;
+      left: 204px;
+      mix-blend-mode: normal;
+      position: absolute;
+      top: 17px;
+      width: 92px;
+    }
+
+    .visuals-page-03 .frame-48096701-xj49YD {
       align-items: flex-start;
       background-color: transparent;
       border: 1px none;
       display: flex;
       flex-direction: column;
-      gap: 20px;
+      gap: 40px;
       height: auto;
-      left: 160px;
+      left: 17px;
       position: absolute;
-      top: 458px;
+      top: 1088px;
       width: fit-content;
     }
 
-    .visuals-page-17 .register-startup-pDg9Sy {
+    .visuals-page-03 .frame-48096699-MsJESg {
+      align-items: flex-end;
+      background-color: transparent;
+      border: 1px none;
+      display: flex;
+      flex-direction: column;
+      gap: 22px;
+      height: auto;
+      position: relative;
+      width: 356px;
+    }
+
+    .visuals-page-03 .group-48096685-AkC0RQ {
+      background-color: transparent;
+      height: 395px;
+      min-width: 355px;
+      position: relative;
+    }
+
+    .visuals-page-03 .image-10-IkWse6 {
+      background-color: transparent;
+      height: 395px;
+      left: 0px;
+      mix-blend-mode: normal;
+      object-fit: cover;
+      position: absolute;
+      top: 0px;
+      width: 355px;
+    }
+
+    .visuals-page-03 .frame-65-IkWse6 {
+      align-items: center;
+      background-color: var(--white);
+      border: 1px none;
+      display: flex;
+      gap: 10px;
+      height: 60px;
+      justify-content: center;
+      left: 291px;
+      mix-blend-mode: normal;
+      padding: 4px 12px;
+      position: absolute;
+      top: 4px;
+      width: 60px;
+    }
+
+    .visuals-page-03 .linkedin-SM19gl {
+      background-color: transparent;
+      height: 18px;
+      min-width: 18.9473876953125px;
+      mix-blend-mode: normal;
+      position: relative;
+    }
+
+    .visuals-page-03 .group-48096686-AkC0RQ {
+      background-color: transparent;
+      height: 61px;
+      min-width: 345px;
+      position: relative;
+    }
+
+    .visuals-page-03 .frame-48096674-lCzasi {
+      align-items: flex-start;
+      background-color: transparent;
+      border: 1px none;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      height: auto;
+      left: 0px;
+      position: absolute;
+      top: 0px;
+      width: fit-content;
+    }
+
+    .visuals-page-03 .samir-khanna-LIzX3O {
       background-color: transparent;
       color: var(--visual-colorblack-c1);
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-top: -1.00px;
+      mix-blend-mode: normal;
+      position: relative;
+      text-align: left;
+      width: 247px;
+    }
+
+    .visuals-page-03 .manger-partner-LIzX3O {
+      background-color: transparent;
+      color: var(--visual-colorblack-c1);
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      mix-blend-mode: normal;
+      position: relative;
+      text-align: left;
+      width: 181px;
+    }
+
+    .visuals-page-03 .group-48096665-lCzasi {
+      background-color: transparent;
+      height: 52px;
+      left: 293px;
+      position: absolute;
+      top: 6px;
+      width: 52px;
+    }
+
+    .visuals-page-03 .rectangle-6342-Sl8aKf {
+      background-color: transparent;
+      border: 1px solid;
+      border-color: var(--visual-colorblack-c1);
+      height: 52px;
+      left: 0px;
+      position: absolute;
+      top: 0px;
+      width: 52px;
+    }
+
+    .visuals-page-03 .arrow-up-right-Sl8aKf {
+      background-color: transparent;
+      height: 30px;
+      left: 11px;
+      mix-blend-mode: normal;
+      position: absolute;
+      top: 11px;
+      width: 30px;
+    }
+
+    .visuals-page-03 .frame-48096700-MsJESg {
+      align-items: flex-start;
+      background-color: transparent;
+      border: 1px none;
+      display: flex;
+      flex-direction: column;
+      gap: 22px;
+      height: auto;
+      position: relative;
+      width: fit-content;
+    }
+
+    .visuals-page-03 .group-48096687-EvdH2E {
+      background-color: transparent;
+      height: 395px;
+      min-width: 355px;
+      position: relative;
+    }
+
+    .visuals-page-03 .image-11-xytyb3 {
+      background-color: transparent;
+      height: 395px;
+      left: 0px;
+      mix-blend-mode: normal;
+      object-fit: cover;
+      position: absolute;
+      top: 0px;
+      width: 355px;
+    }
+
+    .visuals-page-03 .frame-66-xytyb3 {
+      align-items: center;
+      background-color: var(--white);
+      border: 1px none;
+      display: flex;
+      gap: 10px;
+      height: 60px;
+      justify-content: center;
+      left: 290px;
+      mix-blend-mode: normal;
+      padding: 4px 12px;
+      position: absolute;
+      top: 4px;
+      width: 60px;
+    }
+
+    .visuals-page-03 .linkedin-YFxjiV {
+      background-color: transparent;
+      height: 18px;
+      min-width: 18.9473876953125px;
+      mix-blend-mode: normal;
+      position: relative;
+    }
+
+    .visuals-page-03 .group-48096688-EvdH2E {
+      background-color: transparent;
+      height: 61px;
+      min-width: 356px;
+      position: relative;
+    }
+
+    .visuals-page-03 .frame-48096675-GBbbYp {
+      align-items: flex-start;
+      background-color: transparent;
+      border: 1px none;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      height: auto;
+      left: 0px;
+      position: absolute;
+      top: 0px;
+      width: fit-content;
+    }
+
+    .visuals-page-03 .samir-khanna-xxxbsC {
+      background-color: transparent;
+      color: var(--visual-colorblack-c1);
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-top: -1.00px;
+      mix-blend-mode: normal;
+      position: relative;
+      text-align: left;
+      width: 266px;
+    }
+
+    .visuals-page-03 .manger-partner-xxxbsC {
+      background-color: transparent;
+      color: var(--visual-colorblack-c1);
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      mix-blend-mode: normal;
+      position: relative;
+      text-align: left;
+      width: 195px;
+    }
+
+    .visuals-page-03 .group-48096666-GBbbYp {
+      background-color: transparent;
+      height: 52px;
+      left: 304px;
+      position: absolute;
+      top: 6px;
+      width: 52px;
+    }
+
+    .visuals-page-03 .rectangle-6342-PB4dot {
+      background-color: transparent;
+      border: 1px solid;
+      border-color: var(--visual-colorblack-c1);
+      height: 52px;
+      left: 0px;
+      position: absolute;
+      top: 0px;
+      width: 52px;
+    }
+
+    .visuals-page-03 .arrow-up-right-PB4dot {
+      background-color: transparent;
+      height: 30px;
+      left: 11px;
+      mix-blend-mode: normal;
+      position: absolute;
+      top: 11px;
+      width: 30px;
+    }
+
+    .visuals-page-03 .group-48096705-xj49YD {
+      background-color: transparent;
+      height: 940px;
+      left: 0px;
+      position: absolute;
+      top: 2184px;
+      width: 390px;
+    }
+
+    .visuals-page-03 .group-48096704-qB8yiN {
+      background-color: transparent;
+      height: 361px;
+      left: 0px;
+      position: absolute;
+      top: 0px;
+      width: 390px;
+    }
+
+    .visuals-page-03 .rectangle-50-rLWxw7 {
+      background-color: #171717;
+      border: 1px none;
+      height: 361px;
+      left: 0px;
+      mix-blend-mode: normal;
+      position: absolute;
+      top: 0px;
+      width: 390px;
+    }
+
+    .visuals-page-03 .group-48096703-rLWxw7 {
+      background-color: transparent;
+      height: 250px;
+      left: 17px;
+      position: absolute;
+      top: 43px;
+      width: 356px;
+    }
+
+    .visuals-page-03 .frame-78-zol5ix {
+      align-items: flex-start;
+      background-color: transparent;
+      border: 1px none;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      height: auto;
+      left: 0px;
+      position: absolute;
+      top: 0px;
+      width: fit-content;
+    }
+
+    .visuals-page-03 .subscribe-to-to-new-letters-2WinUJ {
+      background-color: transparent;
+      color: var(--wireframecolor-c3);
       font-style: normal;
       font-weight: 700;
       line-height: normal;
@@ -611,34 +1050,76 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
       mix-blend-mode: normal;
       position: relative;
       text-align: left;
-      width: 467px;
+      width: fit-content;
     }
 
-    .visuals-page-17 .rectangle-31-pDg9Sy {
-      background-color: var(--visual-colorred-c4);
-      border: 1px none;
-      height: 5px;
-      min-width: 138px;
+    .visuals-page-03 .lorem-ipsum-is-simpl-2WinUJ {
+      background-color: transparent;
+      color: var(--wireframecolor-c3);
+      font-style: normal;
+      font-weight: 400;
+      line-height: 18px;
       mix-blend-mode: normal;
       position: relative;
+      text-align: left;
+      width: 301px;
     }
 
-    .visuals-page-17 .frame-76-ECyKP8 {
+    .visuals-page-03 .frame-77-zol5ix {
+      align-items: center;
+      background-color: transparent;
+      border: 1px none;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      height: auto;
+      justify-content: center;
+      left: 0px;
+      position: absolute;
+      top: 116px;
+      width: fit-content;
+    }
+
+    .visuals-page-03 .frame-75-v4zMOB {
       align-items: flex-start;
-      background-color: var(--visual-colorblack-c1);
+      background-color: var(--white);
       border: 1px none;
       display: flex;
       gap: 10px;
       height: auto;
-      left: 651px;
       mix-blend-mode: normal;
-      padding: 18px 33px;
-      position: absolute;
-      top: 1069px;
+      padding: 18px 23px;
+      position: relative;
+      width: 356px;
+    }
+
+    .visuals-page-03 .subscribe-to-newsletter-j1tPcJ {
+      background-color: transparent;
+      color: var(--black);
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-top: -1.00px;
+      mix-blend-mode: normal;
+      position: relative;
+      text-align: left;
       width: fit-content;
     }
 
-    .visuals-page-17 .register-7HRG6b {
+    .visuals-page-03 .frame-76-v4zMOB {
+      align-items: flex-start;
+      background-color: var(--visual-colorred-c4);
+      border: 1px none;
+      display: flex;
+      gap: 10px;
+      height: auto;
+      mix-blend-mode: normal;
+      padding: 18px 33px;
+      position: relative;
+      width: fit-content;
+    }
+
+    .visuals-page-03 .subscribe-ML31H8 {
       background-color: transparent;
       color: var(--white);
       font-style: normal;
@@ -651,355 +1132,118 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
       width: fit-content;
     }
 
-    .visuals-page-17 .group-46-ECyKP8 {
+    .visuals-page-03 .group-48096702-qB8yiN {
       background-color: transparent;
-      height: 406px;
-      left: 160px;
-      position: absolute;
-      top: 564px;
-      width: 496px;
-    }
-
-    .visuals-page-17 .frame-82-yuEefb {
-      align-items: flex-end;
-      background-color: transparent;
-      border: 1px none;
-      display: flex;
-      flex-direction: column;
-      gap: 60px;
-      height: auto;
+      height: 579px;
       left: 0px;
       position: absolute;
-      top: 54px;
-      width: fit-content;
+      top: 361px;
+      width: 390px;
     }
 
-    .visuals-page-17 .frame-49-KIqhs0 {
-      align-items: flex-start;
+    .visuals-page-03 .group-48096643-j2LKiP {
       background-color: transparent;
-      border: 1px none;
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-      height: auto;
-      position: relative;
-      width: 494px;
-    }
-
-    .visuals-page-17 .your-name-EcYnrK {
-      background-color: transparent;
-      color: var(--visual-colorblack-c1);
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      margin-top: -1.00px;
-      mix-blend-mode: normal;
-      position: relative;
-      text-align: left;
-      width: fit-content;
-    }
-
-    .visuals-page-17 .line-3-EcYnrK {
-      align-self: stretch;
-      background-color: transparent;
-      height: 1px;
-      min-width: 494px;
-      object-fit: cover;
-      position: relative;
-    }
-
-    .visuals-page-17 .frame-64-KIqhs0 {
-      align-items: flex-start;
-      background-color: transparent;
-      border: 1px none;
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-      height: auto;
-      position: relative;
-      width: 494px;
-    }
-
-    .visuals-page-17 .your-mail-iLNFeJ {
-      background-color: transparent;
-      color: var(--visual-colorblack-c1);
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      margin-top: -1.00px;
-      mix-blend-mode: normal;
-      position: relative;
-      text-align: left;
-      width: fit-content;
-    }
-
-    .visuals-page-17 .line-3-iLNFeJ {
-      align-self: stretch;
-      background-color: transparent;
-      height: 1px;
-      min-width: 494px;
-      object-fit: cover;
-      position: relative;
-    }
-
-    .visuals-page-17 .frame-65-KIqhs0 {
-      align-items: flex-start;
-      background-color: transparent;
-      border: 1px none;
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-      height: auto;
-      position: relative;
-      width: 494px;
-    }
-
-    .visuals-page-17 .your-phone-number-l7ZnmN {
-      background-color: transparent;
-      color: var(--visual-colorblack-c1);
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      margin-top: -1.00px;
-      mix-blend-mode: normal;
-      position: relative;
-      text-align: left;
-      width: fit-content;
-    }
-
-    .visuals-page-17 .line-3-l7ZnmN {
-      align-self: stretch;
-      background-color: transparent;
-      height: 1px;
-      min-width: 494px;
-      object-fit: cover;
-      position: relative;
-    }
-
-    .visuals-page-17 .frame-66-KIqhs0 {
-      align-items: flex-start;
-      background-color: transparent;
-      border: 1px none;
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-      height: auto;
-      position: relative;
-      width: 494px;
-    }
-
-    .visuals-page-17 .position-in-startup-V1pVYe {
-      background-color: transparent;
-      color: var(--visual-colorblack-c1);
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      margin-top: -1.00px;
-      mix-blend-mode: normal;
-      position: relative;
-      text-align: left;
-      width: fit-content;
-    }
-
-    .visuals-page-17 .line-3-V1pVYe {
-      align-self: stretch;
-      background-color: transparent;
-      height: 1px;
-      min-width: 494px;
-      object-fit: cover;
-      position: relative;
-    }
-
-    .visuals-page-17 .your-info-yuEefb {
-      background-color: transparent;
-      color: var(--visual-colorblack-c1);
-      font-style: normal;
-      font-weight: 700;
-      height: auto;
+      height: 579px;
       left: 0px;
-      line-height: normal;
-      mix-blend-mode: normal;
       position: absolute;
-      text-align: left;
       top: 0px;
+      width: 390px;
+    }
+
+    .visuals-page-03 .rectangle-49-fuRpal {
+      background-color: var(--visual-colorred-c8);
+      border: 1px none;
+      height: 579px;
+      left: 0px;
+      mix-blend-mode: normal;
+      position: relative;
+      top: 0px;
+      width: 390px;
+    }
+
+    .visuals-page-03 .group-48096701-j2LKiP {
+      background-color: transparent;
+      height: 439px;
+      left: 17px;
+      position: absolute;
+      top: 62px;
+      width: 307px;
+    }
+
+    .visuals-page-03 .group-48096700-QAjtUR {
+      background-color: transparent;
+      height: 62px;
+      left: 50px;
+      position: absolute;
+      top: 377px;
+      width: 259px;
+    }
+
+    .visuals-page-03 .frame-48096687-VTyoK4 {
+      align-items: center;
+      background-color: transparent;
+      border: 1px none;
+      display: flex;
+      gap: 18px;
+      height: auto;
+      left: 0px;
+      position: absolute;
+      top: 0px;
+      width: fit-content;
+    }
+
+    .visuals-page-03 .all-rights-reserved-5Jh2Pe {
+      background-color: transparent;
+      color: var(--visual-colorblack-c1);
+      font-style: normal;
+      font-weight: 400;
+      line-height: 21px;
+      mix-blend-mode: normal;
+      position: relative;
+      text-align: left;
+      white-space: nowrap;
+      width: fit-content;
+    }
+
+    .visuals-page-03 .rectangle-6353-5Jh2Pe {
+      background-color: var(--visual-colorblack-c1);
+      border: 1px none;
+      height: 30px;
+      min-width: 1px;
+      mix-blend-mode: normal;
+      position: relative;
+    }
+
+    .visuals-page-03 .privacy-policy-5Jh2Pe {
+      background-color: transparent;
+      color: var(--visual-colorblack-c1);
+      font-style: normal;
+      font-weight: 400;
+      line-height: 21px;
+      mix-blend-mode: normal;
+      position: relative;
+      text-align: left;
+      white-space: nowrap;
+      width: fit-content;
+    }
+
+    .visuals-page-03 .terms-of-use-VTyoK4 {
+      background-color: transparent;
+      color: var(--visual-colorblack-c1);
+      font-style: normal;
+      font-weight: 400;
+      height: auto;
+      left: 84px;
+      line-height: 21px;
+      mix-blend-mode: normal;
+      position: absolute;
+      text-align: left;
+      top: 41px;
+      white-space: nowrap;
       width: auto;
     }
 
-    .visuals-page-17 .group-47-ECyKP8 {
-      background-color: transparent;
-      height: 411px;
-      left: 785px;
-      position: absolute;
-      top: 561px;
-      width: 496px;
-    }
-
-    .visuals-page-17 .frame-83-vIkxHn {
-      align-items: flex-end;
-      background-color: transparent;
-      border: 1px none;
-      display: flex;
-      flex-direction: column;
-      gap: 60px;
-      height: auto;
-      left: 0px;
-      position: absolute;
-      top: 59px;
-      width: fit-content;
-    }
-
-    .visuals-page-17 .frame-49-EpGhHv {
-      align-items: flex-start;
-      background-color: transparent;
-      border: 1px none;
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-      height: auto;
-      position: relative;
-      width: 494px;
-    }
-
-    .visuals-page-17 .startup-name-57gJpn {
-      background-color: transparent;
-      color: var(--visual-colorblack-c1);
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      margin-top: -1.00px;
-      mix-blend-mode: normal;
-      position: relative;
-      text-align: left;
-      width: fit-content;
-    }
-
-    .visuals-page-17 .line-3-57gJpn {
-      align-self: stretch;
-      background-color: transparent;
-      height: 1px;
-      min-width: 494px;
-      object-fit: cover;
-      position: relative;
-    }
-
-    .visuals-page-17 .frame-64-EpGhHv {
-      align-items: flex-start;
-      background-color: transparent;
-      border: 1px none;
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-      height: auto;
-      position: relative;
-      width: 494px;
-    }
-
-    .visuals-page-17 .founding-year-NLmQFd {
-      background-color: transparent;
-      color: var(--visual-colorblack-c1);
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      margin-top: -1.00px;
-      mix-blend-mode: normal;
-      position: relative;
-      text-align: left;
-      width: fit-content;
-    }
-
-    .visuals-page-17 .line-3-NLmQFd {
-      align-self: stretch;
-      background-color: transparent;
-      height: 1px;
-      min-width: 494px;
-      object-fit: cover;
-      position: relative;
-    }
-
-    .visuals-page-17 .frame-65-EpGhHv {
-      align-items: flex-start;
-      background-color: transparent;
-      border: 1px none;
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-      height: auto;
-      position: relative;
-      width: 494px;
-    }
-
-    .visuals-page-17 .category-r0IWbE {
-      background-color: transparent;
-      color: var(--visual-colorblack-c1);
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      margin-top: -1.00px;
-      mix-blend-mode: normal;
-      position: relative;
-      text-align: left;
-      width: fit-content;
-    }
-
-    .visuals-page-17 .line-3-r0IWbE {
-      align-self: stretch;
-      background-color: transparent;
-      height: 1px;
-      min-width: 494px;
-      object-fit: cover;
-      position: relative;
-    }
-
-    .visuals-page-17 .frame-66-EpGhHv {
-      align-items: flex-start;
-      background-color: transparent;
-      border: 1px none;
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-      height: auto;
-      position: relative;
-      width: 494px;
-    }
-
-    .visuals-page-17 .looking-for-zGTrI5 {
-      background-color: transparent;
-      color: var(--visual-colorblack-c1);
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      margin-top: -1.00px;
-      mix-blend-mode: normal;
-      position: relative;
-      text-align: left;
-      width: fit-content;
-    }
-
-    .visuals-page-17 .line-3-zGTrI5 {
-      align-self: stretch;
-      background-color: transparent;
-      height: 1px;
-      min-width: 494px;
-      object-fit: cover;
-      position: relative;
-    }
-
-    .visuals-page-17 .startup-info-vIkxHn {
-      background-color: transparent;
-      color: var(--visual-colorblack-c1);
-      font-style: normal;
-      font-weight: 700;
-      height: auto;
-      left: 0px;
-      line-height: normal;
-      mix-blend-mode: normal;
-      position: absolute;
-      text-align: left;
-      top: 0px;
-      width: auto;
-    }
-
-    .visuals-page-17 .frame-77-ECyKP8 {
+    .visuals-page-03 .frame-48096728-QAjtUR {
       align-items: flex-start;
       background-color: transparent;
       border: 1px none;
@@ -1007,359 +1251,13 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
       flex-direction: column;
       gap: 40px;
       height: auto;
-      left: 160px;
-      position: absolute;
-      top: 172px;
-      width: fit-content;
-    }
-
-    .visuals-page-17 .we-partner-with-top-7CI9vt {
-      background-color: transparent;
-      color: transparent;
-      font-family: var(--font-family-space_grotesk);
-      font-size: var(--font-size-xxl);
-      font-style: normal;
-      font-weight: 700;
-      letter-spacing: 0.00px;
-      line-height: normal;
-      margin-top: -1.00px;
-      position: relative;
-      text-align: left;
-      width: 508px;
-      font-size: 40px;
-    }
-
-    .visuals-page-17 .span0-pLo0x1 {
-      color: var(--visual-colorblack-c1);
-      font-style: normal;
-    }
-
-    .visuals-page-17 .span1-pLo0x1 {
-      color: var(--visual-colorred-c4);
-      font-style: normal;
-    }
-
-    .visuals-page-17 .span2-pLo0x1 {
-      color: var(--visual-colorblack-c1);
-      font-style: normal;
-    }
-
-    .visuals-page-17 .group-48096683-ECyKP8 {
-      background-color: transparent;
-      height: 742px;
-      left: 0px;
-      position: absolute;
-      top: 1333px;
-      width: 100%;
-    }
-
-    .visuals-page-17 .group-48096680-x6SMVN {
-      background-color: transparent;
-      height: 392px;
-      left: 0px;
-      position: absolute;
-      top: 350px;
-      width: 100%;
-    }
-
-    .visuals-page-17 .rectangle-49-a4JgLJ {
-      background-color: transparent;
-      height: 392px;
-      left: 0px;
-      mix-blend-mode: normal;
-      position: absolute;
-      top: 0px;
-      width: 100%;
-    }
-
-    .visuals-page-17 .frame-48096692-a4JgLJ {
-      align-items: center;
-      background-color: transparent;
-      border: 1px none;
-      display: flex;
-      flex-direction: column;
-      gap: 53px;
-      height: auto;
-      left: 70px;
-      position: absolute;
-      top: 91px;
-      width: fit-content;
-    }
-
-    .visuals-page-17 .frame-48096691-XiBZGW {
-      align-items: flex-start;
-      background-color: transparent;
-      border: 1px none;
-      display: flex;
-      gap: 424px;
-      height: auto;
-      position: relative;
-      width: 1300px;
-    }
-
-    .visuals-page-17 .frame-48096690-M3fQy4 {
-      align-items: flex-start;
-      background-color: transparent;
-      border: 1px none;
-      display: flex;
-      flex-direction: column;
-      gap: 31px;
-      height: auto;
-      position: relative;
-      width: fit-content;
-    }
-
-    .visuals-page-17 .rectangle-50-IEb8oH {
-      background-color: transparent;
-      height: 50.2021484375px;
-      min-width: 143px;
-      mix-blend-mode: normal;
-      object-fit: cover;
-      position: relative;
-    }
-
-    .visuals-page-17 .demo-text-here-IEb8oH {
-      background-color: transparent;
-      color: var(--visual-colorblack-c1);
-      font-style: normal;
-      font-weight: 700;
-      line-height: normal;
-      mix-blend-mode: normal;
-      position: relative;
-      text-align: left;
-      width: fit-content;
-    }
-
-    .visuals-page-17 .frame-48096686-M3fQy4 {
-      align-items: flex-start;
-      background-color: transparent;
-      border: 1px none;
-      display: flex;
-      flex-direction: column;
-      gap: 15px;
-      height: auto;
-      position: relative;
-      width: fit-content;
-    }
-
-    .visuals-page-17 .who-we-are-C8R3u4 {
-      background-color: transparent;
-      color: var(--visual-colorblack-c1);
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      margin-top: -1.00px;
-      mix-blend-mode: normal;
-      position: relative;
-      text-align: left;
-      width: fit-content;
-    }
-
-    .visuals-page-17 .portfolio-C8R3u4 {
-      background-color: transparent;
-      color: var(--visual-colorblack-c1);
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      mix-blend-mode: normal;
-      position: relative;
-      text-align: left;
-      width: fit-content;
-    }
-
-    .visuals-page-17 .team-C8R3u4 {
-      background-color: transparent;
-      color: var(--visual-colorblack-c1);
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      mix-blend-mode: normal;
-      position: relative;
-      text-align: left;
-      width: fit-content;
-    }
-
-    .visuals-page-17 .value-of-good-C8R3u4 {
-      background-color: transparent;
-      color: var(--visual-colorblack-c1);
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      mix-blend-mode: normal;
-      position: relative;
-      text-align: left;
-      width: fit-content;
-    }
-
-    .visuals-page-17 .fireside-ignite-C8R3u4 {
-      background-color: transparent;
-      color: var(--visual-colorblack-c1);
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      mix-blend-mode: normal;
-      position: relative;
-      text-align: left;
-      width: fit-content;
-    }
-
-    .visuals-page-17 .frame-48096688-M3fQy4 {
-      align-items: flex-start;
-      background-color: transparent;
-      border: 1px none;
-      display: flex;
-      gap: 60px;
-      height: auto;
-      position: relative;
-      width: fit-content;
-    }
-
-    .visuals-page-17 .group-48096675-JDH6Qz {
-      background-color: transparent;
-      height: 24px;
-      min-width: 24px;
-      position: relative;
-    }
-
-    .visuals-page-17 .linkedin-RV083i {
-      background-color: transparent;
-      height: 24px;
-      left: 0px;
-      mix-blend-mode: normal;
-      position: absolute;
-      top: 0px;
-      width: 24px;
-    }
-
-    .visuals-page-17 .group-48096676-JDH6Qz {
-      background-color: transparent;
-      height: 24px;
-      min-width: 24px;
-      position: relative;
-    }
-
-    .visuals-page-17 .youtube-SVcMKc {
-      background-color: transparent;
-      height: 24px;
-      left: 0px;
-      mix-blend-mode: normal;
-      position: absolute;
-      top: 0px;
-      width: 24px;
-    }
-
-    .visuals-page-17 .frame-48096687-XiBZGW {
-      align-items: center;
-      background-color: transparent;
-      border: 1px none;
-      display: flex;
-      gap: 18px;
-      height: auto;
-      position: relative;
-      width: fit-content;
-    }
-
-    .visuals-page-17 .all-rights-reserved-GmvfGH {
-      background-color: transparent;
-      color: var(--visual-colorblack-c1);
-      font-style: normal;
-      font-weight: 400;
-      line-height: 21px;
-      mix-blend-mode: normal;
-      position: relative;
-      text-align: left;
-      white-space: nowrap;
-      width: fit-content;
-    }
-
-    .visuals-page-17 .rectangle-6353-GmvfGH {
-      background-color: var(--visual-colorblack-c1);
-      border: 1px none;
-      height: 30px;
-      min-width: 1px;
-      mix-blend-mode: normal;
-      position: relative;
-    }
-
-    .visuals-page-17 .privacy-policy-GmvfGH {
-      background-color: transparent;
-      color: var(--visual-colorblack-c1);
-      font-style: normal;
-      font-weight: 400;
-      line-height: 21px;
-      mix-blend-mode: normal;
-      position: relative;
-      text-align: left;
-      white-space: nowrap;
-      width: fit-content;
-    }
-
-    .visuals-page-17 .rectangle-6354-GmvfGH {
-      background-color: var(--visual-colorblack-c1);
-      border: 1px none;
-      height: 30px;
-      min-width: 1px;
-      mix-blend-mode: normal;
-      position: relative;
-    }
-
-    .visuals-page-17 .terms-of-use-GmvfGH {
-      background-color: transparent;
-      color: var(--visual-colorblack-c1);
-      font-style: normal;
-      font-weight: 400;
-      line-height: 21px;
-      mix-blend-mode: normal;
-      position: relative;
-      text-align: left;
-      white-space: nowrap;
-      width: fit-content;
-    }
-
-    .visuals-page-17 .group-48096682-x6SMVN {
-      background-color: transparent;
-      height: 384px;
       left: 0px;
       position: absolute;
       top: 0px;
-      width: 100%;
-    }
-
-    .visuals-page-17 .rectangle-50-160wS4 {
-      background-color: var(--visual-colorblack-c1);
-      border: 1px none;
-      height: 306px;
-      left: 0px;
-      mix-blend-mode: normal;
-      position: absolute;
-      top: 44px;
-      width: 100%;
-    }
-
-    .visuals-page-17 .group-48096681-160wS4 {
-      background-color: transparent;
-      height: 384px;
-      left: 160px;
-      position: absolute;
-      top: 0px;
-      width: 1119px;
-    }
-
-    .visuals-page-17 .frame-48096684-dFiyXD {
-      align-items: flex-start;
-      background-color: transparent;
-      border: 1px none;
-      display: flex;
-      flex-direction: column;
-      gap: 24px;
-      height: auto;
-      left: 0px;
-      position: absolute;
-      top: 105px;
       width: fit-content;
     }
 
-    .visuals-page-17 .frame-78-hdPG06 {
+    .visuals-page-03 .frame-48096727-B97U39 {
       align-items: flex-start;
       background-color: transparent;
       border: 1px none;
@@ -1371,56 +1269,40 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
       width: fit-content;
     }
 
-    .visuals-page-17 .subscribe-to-to-new-letters-x6wY1y {
+    .visuals-page-03 .rectangle-50-skIzQz {
       background-color: transparent;
-      color: var(--visual-colorblack-c7);
+      height: 33px;
+      min-width: 94px;
+      mix-blend-mode: normal;
+      object-fit: cover;
+      position: relative;
+    }
+
+    .visuals-page-03 .demo-text-here-skIzQz {
+      background-color: transparent;
+      color: var(--visual-colorblack-c1);
       font-style: normal;
       font-weight: 700;
       line-height: normal;
-      margin-top: -1.00px;
       mix-blend-mode: normal;
       position: relative;
       text-align: left;
       width: fit-content;
     }
 
-    .visuals-page-17 .lorem-ipsum-is-simpl-x6wY1y {
-      background-color: transparent;
-      color: var(--visual-colorblack-c7);
-      font-style: normal;
-      font-weight: 400;
-      line-height: 27px;
-      font-size: 20px;
-      mix-blend-mode: normal;
-      position: relative;
-      text-align: left;
-      width: 532px;
-    }
-
-    .visuals-page-17 .frame-77-hdPG06 {
+    .visuals-page-03 .frame-48096686-B97U39 {
       align-items: flex-start;
       background-color: transparent;
       border: 1px none;
       display: flex;
+      flex-direction: column;
+      gap: 15px;
       height: auto;
       position: relative;
       width: fit-content;
     }
 
-    .visuals-page-17 .frame-75-Xl1O84 {
-      align-items: flex-start;
-      background-color: var(--white);
-      border: 1px none;
-      display: flex;
-      gap: 10px;
-      height: auto;
-      mix-blend-mode: normal;
-      padding: 18px 23px;
-      position: relative;
-      width: 376px;
-    }
-
-    .visuals-page-17 .subscribe-to-newsletter-s6xUbo {
+    .visuals-page-03 .who-we-are-xxR3sf {
       background-color: transparent;
       color: var(--visual-colorblack-c1);
       font-style: normal;
@@ -1431,66 +1313,97 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
       position: relative;
       text-align: left;
       width: fit-content;
-      font-size: 28px;
     }
 
-    .visuals-page-17 .frame-76-Xl1O84 {
-      align-items: flex-start;
-      background-color: var(--visual-colorred-c4);
-      border: 1px none;
-      display: flex;
-      gap: 10px;
-      height: auto;
-      mix-blend-mode: normal;
-      padding: 18px 33px;
-      position: relative;
-      width: fit-content;
-    }
-
-    .visuals-page-17 .subscribe-8sMfST {
+    .visuals-page-03 .portfolio-xxR3sf {
       background-color: transparent;
-      color: var(--white);
+      color: var(--visual-colorblack-c1);
       font-style: normal;
       font-weight: 400;
       line-height: normal;
-      margin-top: -1.00px;
       mix-blend-mode: normal;
       position: relative;
       text-align: left;
       width: fit-content;
-      font-size: 28px;
     }
 
-    .visuals-page-17 .group-48096674-dFiyXD {
+    .visuals-page-03 .team-xxR3sf {
       background-color: transparent;
-      height: 384px;
-      left: 856px;
-      position: absolute;
-      top: 0px;
-      width: 263px;
-    }
-
-    .visuals-page-17 .rectangle-74-Fom32C {
-      background-color: transparent;
-      border: 10px solid;
-      border-color: var(--visual-colorred-c2);
-      height: 282px;
-      left: 88px;
-      position: absolute;
-      top: 0px;
-      width: 175px;
-    }
-
-    .visuals-page-17 .rectangle-70-Fom32C {
-      background-color: var(--visual-colorred-c4);
-      border: 4px solid;
-      border-color: var(--visual-colorred-c4);
-      height: 277px;
-      left: 0px;
+      color: var(--visual-colorblack-c1);
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
       mix-blend-mode: normal;
-      position: absolute;
-      top: 107px;
-      width: 130px;
+      position: relative;
+      text-align: left;
+      width: fit-content;
+    }
+
+    .visuals-page-03 .value-of-good-xxR3sf {
+      background-color: transparent;
+      color: var(--visual-colorblack-c1);
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      mix-blend-mode: normal;
+      position: relative;
+      text-align: left;
+      width: fit-content;
+    }
+
+    .visuals-page-03 .fireside-ignite-xxR3sf {
+      background-color: transparent;
+      color: var(--visual-colorblack-c1);
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      mix-blend-mode: normal;
+      position: relative;
+      text-align: left;
+      width: fit-content;
+    }
+
+    .visuals-page-03 .frame-58-B97U39 {
+      align-items: flex-start;
+      background-color: transparent;
+      border: 1px none;
+      display: flex;
+      gap: 57px;
+      height: auto;
+      position: relative;
+      width: fit-content;
+    }
+
+    .visuals-page-03 .facebook-XL9im9 {
+      background-color: transparent;
+      height: 24px;
+      min-width: 24px;
+      mix-blend-mode: normal;
+      position: relative;
+    }
+
+    .visuals-page-03 .linkedin-XL9im9 {
+      background-color: transparent;
+      height: 24px;
+      min-width: 24px;
+      mix-blend-mode: normal;
+      position: relative;
+    }
+
+    .visuals-page-03 .link-XL9im9 {
+      background-color: transparent;
+      height: 24px;
+      min-width: 24px;
+      mix-blend-mode: normal;
+      position: relative;
+    }
+
+    .visuals-page-03 .twitter-XL9im9 {
+      background-color: transparent;
+      height: 24px;
+      min-width: 24px;
+      mix-blend-mode: normal;
+      position: relative;
     }
   </style>
   <style id="action-links-styles">
@@ -1809,7 +1722,13 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
       width: max-content;
       text-decoration: none;
     }
-
+    .visuals-page-08 .NormalBox{
+      font-size: 18px;
+    }
+    .visuals-page-08 .title-x8ejf9
+    {
+      font-size: 18px;
+    }
     @media screen and (max-width: 550px) {
       #anima-watermark-link {
         padding: 6px !important;
@@ -1820,174 +1739,171 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
       }
     }
   </style>
-  <link rel="stylesheet" href="./styles/menu-desktop.css">
+  <script id="anime-js-script" src="Team-mobile_files/anime.min.js"
+    integrity="sha256-98Q574VkbV+PkxXCKSgL6jVq9mrVbS7uCdA+vt0sLS8=" crossorigin="anonymous"></script>
+  <script id="imgloaded-js-script" src="Team-mobile_files/imagesloaded.pkgd.min.js"></script>
 </head>
 
-<body style="margin: 0;background: #ffffff;"><input type="hidden" id="anPageName" name="page" value="visuals-page-17">
+<body style="margin: 0;background: #ffffff;"><input type="hidden" id="anPageName" name="page" value="visuals-page-03">
   <div class="container-center-horizontal">
-    <div class="visuals-page-17 screen " data-id="326:3704">
-      <div class="group-48-ECyKP8" data-id="326:3705">
-        <div class="ellipse-2-KlxaFc" data-id="326:3706"></div>
-        <div class="ellipse-4-KlxaFc" data-id="326:3707"></div>
-        <div class="rectangle-37-KlxaFc" data-id="326:3708"></div>
-        <div class="rectangle-38-KlxaFc" data-id="326:3709"></div>
-        <div class="rectangle-39-KlxaFc" data-id="326:3710"></div>
-        <div class="rectangle-40-KlxaFc" data-id="326:3711"></div>
-        <div class="rectangle-41-KlxaFc" data-id="326:3712"></div>
-      </div><img class="rectangle-2-ECyKP8" data-id="326:3713" src="Register%20Startup-desktop_files/rectangle-2@2x.png"
-        anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637753a9b8fd1949e1f297d3/img/rectangle-2@2x.png"
+    <div class="visuals-page-03 screen " data-id="326:4061">
+      <div class="rectangle-6357-xj49YD" data-id="326:4062"></div>
+      <div class="ellipse-2-xj49YD" data-id="326:4063"></div>
+      <div class="ellipse-4-xj49YD" data-id="326:4064"></div>
+      <div class="rectangle-6343-xj49YD" data-id="326:4065"></div><img class="rectangle-6346-xj49YD" data-id="326:4066"
+        src="Team-mobile_files/rectangle-6346@2x.svg"
+        anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/6384d8a80349ddb8225417ed/img/rectangle-6346@2x.svg"
+        alt="Rectangle 6346"><img class="rectangle-6347-xj49YD" data-id="326:4067"
+        src="Team-mobile_files/rectangle-6347@2x.svg"
+        anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/6384d8a80349ddb8225417ed/img/rectangle-6347@2x.svg"
+        alt="Rectangle 6347">
+      <div class="rectangle-6344-xj49YD" data-id="326:4068"></div>
+      <div class="ellipse-3-xj49YD" data-id="326:4069"></div>
+      <div class="frame-55-xj49YD" data-id="326:4070">
+        <h1 class="title-sBVMU8" data-id="326:4071"><span class="span0-xmFpxj spacegrotesk-bold-woodsmoke-32px">We
+          </span><span class="span1-xmFpxj spacegrotesk-bold-red-32px">Believe</span><span
+            class="span2-xmFpxj spacegrotesk-bold-woodsmoke-32px"> in Diversification and Same can be seen in
+          </span><span class="span3-xmFpxj spacegrotesk-bold-red-32px">our team values</span></h1>
+        <div class="rectangle-31-sBVMU8" data-id="326:4072"></div>
+      </div>
+      <div class="rectangle-6345-xj49YD" data-id="326:4073"></div>
+      <div class="group-36-xj49YD" onclick="loadMenuMobile('Team')" data-id="326:4074">
+        <div class="ellipse-1-wqngxM" data-id="326:4075"></div>
+        <div class="group-35-wqngxM" data-id="326:4076">
+          <div class="rectangle-21-iXwbjy" data-id="326:4077"></div>
+          <div class="rectangle-22-iXwbjy" data-id="326:4078"></div>
+          <div class="rectangle-23-iXwbjy" data-id="326:4079"></div>
+        </div>
+      </div><img class="rectangle-2-xj49YD" data-id="326:4080" src="Team-mobile_files/rectangle-2@2x.png"
+        anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637a1713b560be4e719035a0/img/rectangle-2@2x.png"
         alt="Rectangle 2">
-      <div class="group-36-ECyKP8" onclick="loadMenuDesktop('Register Startup')" data-id="326:3714">
-        <div class="ellipse-1-z3tHmC" data-id="326:3715"></div>
-        <div class="group-35-z3tHmC" data-id="326:3716">
-          <div class="rectangle-21-4APSs7" data-id="326:3717"></div>
-          <div class="rectangle-22-4APSs7" data-id="326:3718"></div>
-          <div class="rectangle-23-4APSs7" data-id="326:3719"></div>
-        </div>
+      <div class="frame-48096653-xj49YD" data-id="326:4081">
+        <div class="our-rockstar-team-f1gp60" data-id="326:4082"><span
+            class="span0-lUgr2Z spacegrotesk-bold-woodsmoke-32px">Our </span><span
+            class="span1-lUgr2Z spacegrotesk-bold-red-32px">Rockstar</span><span
+            class="span2-lUgr2Z spacegrotesk-bold-woodsmoke-32px"> Team</span></div>
+        <div class="rectangle-32-f1gp60" data-id="326:4083"></div><img class="vector-2-f1gp60" data-id="326:4084"
+          src="Team-mobile_files/vector-2@2x.svg"
+          anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/6384d633cb4e69504e3e313d/img/vector-2@2x.svg"
+          alt="Vector 2"><img class="vector-1-f1gp60" data-id="326:4085" src="Team-mobile_files/vector-1@2x.svg"
+          anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/6384d633cb4e69504e3e313d/img/vector-1@2x.svg"
+          alt="Vector 1">
       </div>
-      <div class="rectangle-3-ECyKP8" data-id="326:3720"></div>
-      <div class="rectangle-4-ECyKP8" data-id="326:3721"></div>
-      <div class="frame-55-ECyKP8" data-id="326:3722">
-        <div class="register-startup-pDg9Sy heading-boldh2-24" data-id="326:3723">Register Startup</div>
-        <div class="rectangle-31-pDg9Sy" data-id="326:3724"></div>
-      </div>
-      <div class="frame-76-ECyKP8" data-id="326:3725">
-        <div class="register-7HRG6b heading-regularh4-18" data-id="326:3726">Register</div>
-      </div>
-      <div class="group-46-ECyKP8" data-id="326:3727">
-        <div class="frame-82-yuEefb" data-id="326:3728">
-          <div class="frame-49-KIqhs0" data-id="326:3729">
-            <div class="your-name-EcYnrK heading-regularh4-18" data-id="326:3730">Your Name</div><img
-              class="line-3-EcYnrK" data-id="326:3731" src="Register%20Startup-desktop_files/line-3@2x.svg"
-              anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637753a9b8fd1949e1f297d3/img/line-3@2x.svg"
-              alt="Line 3">
+      <div class="frame-48096701-xj49YD" data-id="326:4086">
+        <div class="frame-48096699-MsJESg" data-id="326:4087">
+          <div class="group-48096685-AkC0RQ" data-id="326:4088"><img class="image-10-IkWse6" data-id="326:4089"
+              src="Team-mobile_files/image-10@2x.png"
+              anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/6384d8a80349ddb8225417ed/img/image-10@2x.png"
+              alt="image 10">
+            <div class="frame-65-IkWse6" data-id="326:4090"><img class="linkedin-SM19gl" data-id="326:4091"
+                src="Team-mobile_files/linkedin@2x_002.svg"
+                anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/6384d8a80349ddb8225417ed/img/linkedin@2x.svg"
+                alt="linkedin"></div>
           </div>
-          <div class="frame-64-KIqhs0" data-id="326:3732">
-            <div class="your-mail-iLNFeJ heading-regularh4-18" data-id="326:3733">Your Mail</div><img
-              class="line-3-iLNFeJ" data-id="326:3734" src="Register%20Startup-desktop_files/line-3@2x.svg"
-              anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637753a9b8fd1949e1f297d3/img/line-3@2x.svg"
-              alt="Line 3">
-          </div>
-          <div class="frame-65-KIqhs0" data-id="326:3735">
-            <div class="your-phone-number-l7ZnmN heading-regularh4-18" data-id="326:3736">Your Phone Number</div><img
-              class="line-3-l7ZnmN" data-id="326:3737" src="Register%20Startup-desktop_files/line-3@2x.svg"
-              anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637753a9b8fd1949e1f297d3/img/line-3@2x.svg"
-              alt="Line 3">
-          </div>
-          <div class="frame-66-KIqhs0" data-id="326:3738">
-            <div class="position-in-startup-V1pVYe heading-regularh4-18" data-id="326:3739">Position in Startup</div>
-            <img class="line-3-V1pVYe" data-id="326:3740" src="Register%20Startup-desktop_files/line-3@2x.svg"
-              anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637753a9b8fd1949e1f297d3/img/line-3@2x.svg"
-              alt="Line 3">
+          <div class="group-48096686-AkC0RQ" data-id="326:4092">
+            <div class="frame-48096674-lCzasi" data-id="326:4093">
+              <div class="samir-khanna-LIzX3O heading-regularh3-21" data-id="326:4094">Samir Khanna</div>
+              <div class="manger-partner-LIzX3O heading-regularh5-14" data-id="326:4095">Manger Partner</div>
+            </div>
+            <div class="group-48096665-lCzasi" data-id="326:4096">
+              <div class="rectangle-6342-Sl8aKf" data-id="326:4097"></div><img class="arrow-up-right-Sl8aKf"
+                data-id="326:4098" src="Team-mobile_files/arrow-up-right@2x.svg"
+                anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/6384d633cb4e69504e3e313d/img/arrow-up-right@2x.svg"
+                alt="arrow-up-right">
+            </div>
           </div>
         </div>
-        <div class="your-info-yuEefb heading-boldh4-18" data-id="326:3741">Your Info</div>
-      </div>
-      <div class="group-47-ECyKP8" data-id="326:3742">
-        <div class="frame-83-vIkxHn" data-id="326:3743">
-          <div class="frame-49-EpGhHv" data-id="326:3744">
-            <div class="startup-name-57gJpn heading-regularh4-18" data-id="326:3745">Startup Name</div><img
-              class="line-3-57gJpn" data-id="326:3746" src="Register%20Startup-desktop_files/line-3@2x.svg"
-              anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637753a9b8fd1949e1f297d3/img/line-3@2x.svg"
-              alt="Line 3">
+        <div class="frame-48096700-MsJESg" data-id="326:4099">
+          <div class="group-48096687-EvdH2E" data-id="326:4100"><img class="image-11-xytyb3" data-id="326:4101"
+              src="Team-mobile_files/image-11@2x.png"
+              anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/6384d8a80349ddb8225417ed/img/image-11@2x.png"
+              alt="image 11">
+            <div class="frame-66-xytyb3" data-id="326:4102"><img class="linkedin-YFxjiV" data-id="326:4103"
+                src="Team-mobile_files/linkedin@2x_002.svg"
+                anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/6384d8a80349ddb8225417ed/img/linkedin@2x.svg"
+                alt="linkedin"></div>
           </div>
-          <div class="frame-64-EpGhHv" data-id="326:3747">
-            <div class="founding-year-NLmQFd heading-regularh4-18" data-id="326:3748">Founding Year</div><img
-              class="line-3-NLmQFd" data-id="326:3749" src="Register%20Startup-desktop_files/line-3@2x.svg"
-              anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637753a9b8fd1949e1f297d3/img/line-3@2x.svg"
-              alt="Line 3">
-          </div>
-          <div class="frame-65-EpGhHv" data-id="326:3750">
-            <div class="category-r0IWbE heading-regularh4-18" data-id="326:3751">Category</div><img
-              class="line-3-r0IWbE" data-id="326:3752" src="Register%20Startup-desktop_files/line-3@2x.svg"
-              anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637753a9b8fd1949e1f297d3/img/line-3@2x.svg"
-              alt="Line 3">
-          </div>
-          <div class="frame-66-EpGhHv" data-id="326:3753">
-            <div class="looking-for-zGTrI5 heading-regularh4-18" data-id="326:3754">Looking For ?</div><img
-              class="line-3-zGTrI5" data-id="326:3755" src="Register%20Startup-desktop_files/line-3@2x.svg"
-              anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637753a9b8fd1949e1f297d3/img/line-3@2x.svg"
-              alt="Line 3">
+          <div class="group-48096688-EvdH2E" data-id="326:4104">
+            <div class="frame-48096675-GBbbYp" data-id="326:4105">
+              <div class="samir-khanna-xxxbsC heading-regularh3-21" data-id="326:4106">Samir Khanna</div>
+              <div class="manger-partner-xxxbsC heading-regularh5-14" data-id="326:4107">Manger Partner</div>
+            </div>
+            <div class="group-48096666-GBbbYp" data-id="326:4108">
+              <div class="rectangle-6342-PB4dot" data-id="326:4109"></div><img class="arrow-up-right-PB4dot"
+                data-id="326:4110" src="Team-mobile_files/arrow-up-right@2x.svg"
+                anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/6384d633cb4e69504e3e313d/img/arrow-up-right@2x.svg"
+                alt="arrow-up-right">
+            </div>
           </div>
         </div>
-        <div class="startup-info-vIkxHn heading-boldh4-18" data-id="326:3756">Startup Info</div>
       </div>
-      <div class="frame-77-ECyKP8" data-id="326:3757">
-        <h1 class="we-partner-with-top-7CI9vt" data-id="326:3758"><span class="span0-pLo0x1">WE PARTNER WITH TOP
-          </span><span class="span1-pLo0x1">ENTREPRENEURS</span><span class="span2-pLo0x1"> FROM VENTURE CREATION</span>
-        </h1>
-      </div>
-      <div class="group-48096683-ECyKP8" data-id="326:3759">
-        <div class="group-48096680-x6SMVN" data-id="326:3760"><img class="rectangle-49-a4JgLJ" data-id="326:3761"
-            src="Register%20Startup-desktop_files/rectangle-49@1x.svg"
-            anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637753a9b8fd1949e1f297d3/img/rectangle-49@1x.svg"
-            alt="Rectangle 49">
-          <div class="frame-48096692-a4JgLJ" data-id="326:3762">
-            <div class="frame-48096691-XiBZGW" data-id="326:3763">
-              <div class="frame-48096690-M3fQy4" data-id="326:3764"><img class="rectangle-50-IEb8oH" data-id="326:3765"
-                  src="Register%20Startup-desktop_files/rectangle-50@2x.png"
-                  anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637753a9b8fd1949e1f297d3/img/rectangle-50@2x.png"
+      <div class="group-48096705-xj49YD" data-id="326:4111">
+        <div class="group-48096704-qB8yiN" data-id="326:4112">
+          <div class="rectangle-50-rLWxw7" data-id="326:4113"></div>
+          <div class="group-48096703-rLWxw7" data-id="326:4114">
+            <div class="frame-78-zol5ix" data-id="326:4115">
+              <p class="subscribe-to-to-new-letters-2WinUJ heading-boldh3-21" data-id="326:4116">Subscribe to to New
+                Letters</p>
+              <p class="lorem-ipsum-is-simpl-2WinUJ heading-regularh6-12" data-id="326:4117">Lorem Ipsum is simply dummy
+                text of the printing and typesetting industry</p>
+            </div>
+            <div class="frame-77-zol5ix" data-id="326:4118">
+              <div class="frame-75-v4zMOB" data-id="326:4119">
+                <div class="subscribe-to-newsletter-j1tPcJ heading-regularh5-14" data-id="326:4120">Subscribe to
+                  Newsletter</div>
+              </div>
+              <div class="frame-76-v4zMOB" data-id="326:4121">
+                <div class="subscribe-ML31H8 heading-regularh5-14" data-id="326:4122">Subscribe</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="group-48096702-qB8yiN" data-id="326:4123">
+          <div class="group-48096643-j2LKiP" data-id="326:4124">
+            <div class="rectangle-49-fuRpal" data-id="326:4125"></div>
+          </div>
+          <div class="group-48096701-j2LKiP" data-id="326:4126">
+            <div class="group-48096700-QAjtUR" data-id="326:4127">
+              <div class="frame-48096687-VTyoK4" data-id="326:4128">
+                <div class="all-rights-reserved-5Jh2Pe heading-regularh5-14" data-id="326:4129">All rights reserved
+                </div>
+                <div class="rectangle-6353-5Jh2Pe" data-id="326:4130"></div>
+                <div class="privacy-policy-5Jh2Pe heading-regularh5-14" data-id="326:4131">Privacy Policy</div>
+              </div>
+              <div class="terms-of-use-VTyoK4 heading-regularh5-14" data-id="326:4132">Terms of Use</div>
+            </div>
+            <div class="frame-48096728-QAjtUR" data-id="326:4133">
+              <div class="frame-48096727-B97U39" data-id="326:4134"><img class="rectangle-50-skIzQz" data-id="326:4135"
+                  src="Team-mobile_files/rectangle-2@2x.png"
+                  anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637a1713b560be4e719035a0/img/rectangle-2@2x.png"
                   alt="Rectangle 50">
-                <div class="demo-text-here-IEb8oH heading-boldh1-30" data-id="326:3766">Demo Text here</div>
+                <div class="demo-text-here-skIzQz heading-boldh4-18" data-id="326:4136">Demo Text here</div>
               </div>
-              <div class="frame-48096686-M3fQy4" data-id="326:3767">
-                <div class="who-we-are-C8R3u4 heading-regularh5-14" data-id="326:3768">Who We Are</div>
-                <div class="portfolio-C8R3u4 heading-regularh5-14" data-id="326:3769">Portfolio</div>
-                <div class="team-C8R3u4 heading-regularh5-14" data-id="326:3770">Team</div>
-                <div class="value-of-good-C8R3u4 heading-regularh5-14" data-id="326:3771">Value of Good</div>
-                <div class="fireside-ignite-C8R3u4 heading-regularh5-14" data-id="326:3772">Fireside Ignite</div>
+              <div class="frame-48096686-B97U39" data-id="326:4137">
+                <div class="who-we-are-xxR3sf heading-regularh5-14" data-id="326:4138">Who We Are</div>
+                <div class="portfolio-xxR3sf heading-regularh5-14" data-id="326:4139">Portfolio</div>
+                <div class="team-xxR3sf heading-regularh5-14" data-id="326:4140">Team</div>
+                <div class="value-of-good-xxR3sf heading-regularh5-14" data-id="326:4141">Value of Good</div>
+                <div class="fireside-ignite-xxR3sf heading-regularh5-14" data-id="326:4142">Fireside Ignite</div>
               </div>
-              <div class="frame-48096688-M3fQy4" data-id="326:3773">
-                <div class="group-48096675-JDH6Qz" data-id="326:3774"><img class="linkedin-RV083i" data-id="326:3775"
-                    src="Register%20Startup-desktop_files/linkedin-1@2x.svg"
-                    anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637753a9b8fd1949e1f297d3/img/linkedin-1@2x.svg"
-                    alt="linkedin"></div>
-                <div class="group-48096676-JDH6Qz" data-id="326:3776"><img class="youtube-SVcMKc" data-id="326:3777"
-                    src="Register%20Startup-desktop_files/youtube-1@2x.svg"
-                    anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637753a9b8fd1949e1f297d3/img/youtube-1@2x.svg"
-                    alt="youtube"></div>
-              </div>
-            </div>
-            <div class="frame-48096687-XiBZGW" data-id="326:3778">
-              <div class="all-rights-reserved-GmvfGH heading-regularh5-14" data-id="326:3779">All rights reserved</div>
-              <div class="rectangle-6353-GmvfGH" data-id="326:3780"></div>
-              <div class="privacy-policy-GmvfGH heading-regularh5-14" data-id="326:3781">Privacy Policy</div>
-              <div class="rectangle-6354-GmvfGH" data-id="326:3782"></div>
-              <div class="terms-of-use-GmvfGH heading-regularh5-14" data-id="326:3783">Terms of Use</div>
-            </div>
-          </div>
-        </div>
-        <div class="group-48096682-x6SMVN" data-id="326:3784">
-          <div class="rectangle-50-160wS4" data-id="326:3785"></div>
-          <div class="group-48096681-160wS4" data-id="326:3786">
-            <div class="frame-48096684-dFiyXD" data-id="326:3787">
-              <div class="frame-78-hdPG06" data-id="326:3788">
-                <p class="subscribe-to-to-new-letters-x6wY1y heading-boldh2-24" data-id="326:3789">Subscribe to to New
-                  Letters</p>
-                <p class="lorem-ipsum-is-simpl-x6wY1y heading-regularh4-18" data-id="326:3790">Lorem Ipsum is simply
-                  dummy text of the printing and typesetting industry</p>
-              </div>
-              <div class="frame-77-hdPG06" data-id="326:3791">
-                <div class="frame-75-Xl1O84" data-id="326:3792">
-                  <div class="subscribe-to-newsletter-s6xUbo heading-regularh4-18" data-id="326:3793">Subscribe to
-                    Newsletter</div>
-                </div>
-                <div class="frame-76-Xl1O84" data-id="326:3794">
-                  <div class="subscribe-8sMfST heading-regularh4-18" data-id="326:3795">Subscribe</div>
-                </div>
-              </div>
-            </div>
-            <div class="group-48096674-dFiyXD" data-id="326:3796">
-              <div class="rectangle-74-Fom32C" data-id="326:3797"></div>
-              <div class="rectangle-70-Fom32C" data-id="326:3798"></div>
+              <div class="frame-58-B97U39" data-id="326:4143"><img class="facebook-XL9im9" data-id="326:4144"
+                  src="Team-mobile_files/facebook@2x.svg"
+                  anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637a1713b560be4e719035a0/img/facebook@2x.svg"
+                  alt="facebook"><img class="linkedin-XL9im9" data-id="326:4145" src="Team-mobile_files/linkedin@2x.svg"
+                  anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637a1713b560be4e719035a0/img/linkedin@2x.svg"
+                  alt="linkedin"><img class="link-XL9im9" data-id="326:4146" src="Team-mobile_files/link@2x.svg"
+                  anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/6384d06a074ce5f96a67358c/img/link@2x.svg"
+                  alt="link"><img class="twitter-XL9im9" data-id="326:4147" src="Team-mobile_files/twitter@2x.svg"
+                  anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637a1713b560be4e719035a0/img/twitter@2x.svg"
+                  alt="twitter"></div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <script src="Register%20Startup-desktop_files/free-website-banner-anima-5.min.js" async=""></script>
-  <script defer="defer" src="Register%20Startup-desktop_files/restart-btn.min.js"></script>
+  <script src="Team-mobile_files/free-website-banner-anima-5.min.js" async=""></script>
+  <script defer="defer" src="Team-mobile_files/restart-btn.min.js"></script>
   <div id="anima-interface" data-turbo-permanent="true" class="idle">
     <!---->
     <div id="anima-comment-popover" class="popover top" role="tooltip" style="left: -205px; top: -220px;">
@@ -2001,12 +1917,12 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
             Login to your account to leave comments. Don't have an account? Sign up for free!
           </p>
           <a target="_blank" rel="noopener noreferrer" class="btn"
-            href="https://projects.animaapp.com/p/undefined/s/visuals-page-17?mode=comments&amp;utm_campaign=add-comment&amp;utm_medium=add-comment&amp;utm_source=animaapp.io">Add
+            href="https://projects.animaapp.com/p/undefined/s/visuals-page-03?mode=comments&amp;utm_campaign=add-comment&amp;utm_medium=add-comment&amp;utm_source=animaapp.io">Add
             comment</a>
         </div>
 
         <div style="display:flex;align-items:center;justify-content:center;padding-right:20px">
-          <img src="Register%20Startup-desktop_files/comment-illustration.svg">
+          <img src="Team-mobile_files/comment-illustration.svg">
         </div>
       </div>
     </div>
@@ -2022,12 +1938,12 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
             Don’t have an account? Sign up for free!
           </p>
           <a target="_blank" rel="noopener noreferrer" class="btn"
-            href="https://projects.animaapp.com/p/undefined/s/visuals-page-17?mode=code&amp;utm_campaign=get-code&amp;utm_medium=get-code&amp;utm_source=animaapp.io">
+            href="https://projects.animaapp.com/p/undefined/s/visuals-page-03?mode=code&amp;utm_campaign=get-code&amp;utm_medium=get-code&amp;utm_source=animaapp.io">
             Get code
           </a>
         </div>
 
-        <img src="Register%20Startup-desktop_files/code-illustration.svg">
+        <img src="Team-mobile_files/code-illustration.svg">
       </div>
     </div>
     <div class="omniview-anima-action-links" id="actions-wrap">

@@ -1,13 +1,7 @@
 <!DOCTYPE html>
-<!-- This code was generated using AnimaApp.com. 
-This code is a high-fidelity prototype.
-Get developer-friendly React or HTML/CSS code for this project at: https://projects.animaapp.com?utm_source=hosted-code 
-28/11/2022 13:04:58 -->
 <html>
 
 <head>
-  <script src="./scripts/menu-loader.js"></script>
-  <script src="./scripts/detect-mobile.js"></script>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <style type="text/css">
     .turbo-progress-bar {
@@ -24,6 +18,9 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
       transform: translate3d(0, 0, 0);
     }
   </style>
+    <link rel="stylesheet" href="./styles/menu-mobile.css">
+    <script src="./scripts/menu-loader.js"></script>
+    <script src="./scripts/detect-mobile.js"></script>
   <style id="st_globalStyles">
     /* SCROLLBAR */
 
@@ -103,9 +100,11 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
     }
   </style>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=1440, maximum-scale=1.0">
- <meta name="og:type" content="website">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta name="og:type" content="website">
   <meta name="twitter:card" content="photo">
+  <script defer="defer" src="Register%20Startup-mobile_files/jquery.js"></script>
+  <script id="anima-hotspots-script" src="Register%20Startup-mobile_files/hotspots.js"></script>
   <style id="hotspots-styles">
     .hotspot {
       position: absolute;
@@ -121,10 +120,14 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
       display: none !important;
     }
   </style>
+  <script id="s_turbo" src="Register%20Startup-mobile_files/turbo.es2017-umd.js"></script>
+  <script id="anima-overrides-script" src="Register%20Startup-mobile_files/overrides.js"></script>
+  <script src="Register%20Startup-mobile_files/timeline.js"></script>
   <style>
     @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
 
     @import url("https://fonts.googleapis.com/css?family=Poppins:400,700|Space+Grotesk:700");
+
     .screen textarea:focus,
     .screen input:focus {
       outline: none;
@@ -320,16 +323,18 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
       --black: #000000;
       --visual-colorblack-c1: #0e0e0e;
       --visual-colorblack-c6: #f8f8f8;
-      --visual-colorblack-c7: #fcfcfc;
-      --visual-colorred-c2: #92160d;
       --visual-colorred-c4: #f91100;
+      --visual-colorred-c8: #fffaf9;
       --white: #ffffff;
+      --wireframecolor-c1: #202020;
+      --wireframecolor-c3: #eeeeee;
 
-      --font-size-l: 24px;
+      --font-size-l: 21px;
       --font-size-m: 18px;
       --font-size-s: 14px;
-      --font-size-xl: 30px;
-      --font-size-xxl: 48px;
+      --font-size-xl: 24px;
+      --font-size-xs: 12px;
+      --font-size-xxl: 32px;
 
       --font-family-poppins: "Poppins", Helvetica;
       --font-family-space_grotesk: "Space Grotesk", Helvetica;
@@ -351,7 +356,15 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
       letter-spacing: 0px;
     }
 
-    .heading-boldh1-30 {
+    .heading-regularh6-12 {
+      font-family: var(--font-family-poppins);
+      font-size: var(--font-size-xs);
+      font-style: normal;
+      font-weight: 400;
+      letter-spacing: 0px;
+    }
+
+    .heading-boldh2-24 {
       font-family: var(--font-family-poppins);
       font-size: var(--font-size-xl);
       font-style: normal;
@@ -359,7 +372,7 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
       letter-spacing: 0px;
     }
 
-    .heading-boldh2-24 {
+    .heading-boldh3-21 {
       font-family: var(--font-family-poppins);
       font-size: var(--font-size-l);
       font-style: normal;
@@ -378,137 +391,30 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
     :root {}
 
 
-    /* screen - visuals-page-17 */
+    /* screen - visuals-page-03 */
 
-    .visuals-page-17 {
+    .visuals-page-03 {
       background-color: var(--white);
       border: 1px none;
-      height: 2075px;
+      height: 2527px;
       mix-blend-mode: normal;
       overflow: hidden;
       overflow-x: hidden;
       position: relative;
-      width: 100%;
+      width: 390px;
     }
 
-    .visuals-page-17 .group-48-ECyKP8 {
-      background-color: transparent;
-      height: 820px;
-      left: 969px;
-      position: absolute;
-      top: 83px;
-      transform: rotate(97.53deg);
-      width: 803px;
-    }
-
-    .visuals-page-17 .ellipse-2-KlxaFc {
-      background-color: #fd4744;
-      border: 1px none;
-      border-radius: 285px;
-      height: 570px;
-      left: 116px;
-      mix-blend-mode: normal;
-      position: absolute;
-      top: 116px;
-      transform: rotate(-129.60deg);
-      width: 570px;
-    }
-
-    .visuals-page-17 .ellipse-4-KlxaFc {
-      background-color: var(--white);
-      border: 1px none;
-      border-radius: 202.05px;
-      height: 404px;
-      left: 199px;
-      mix-blend-mode: normal;
-      position: absolute;
-      top: 199px;
-      transform: rotate(-129.60deg);
-      width: 404px;
-    }
-
-    .visuals-page-17 .rectangle-37-KlxaFc {
-      background-color: var(--visual-colorred-c4);
-      border: 1px none;
-      height: 67px;
-      left: 79px;
-      mix-blend-mode: normal;
-      position: absolute;
-      top: 449px;
-      transform: rotate(-106.79deg);
-      width: 18px;
-    }
-
-    .visuals-page-17 .rectangle-38-KlxaFc {
-      background-color: #fd474354;
-      border: 1px none;
-      height: 29px;
-      left: 321px;
-      mix-blend-mode: normal;
-      position: absolute;
-      top: 684px;
-      transform: rotate(-167.33deg);
-      width: 18px;
-    }
-
-    .visuals-page-17 .rectangle-39-KlxaFc {
-      background-color: var(--visual-colorred-c4);
-      border: 1px none;
-      height: 67px;
-      left: 368px;
-      mix-blend-mode: normal;
-      position: absolute;
-      top: 692px;
-      transform: rotate(-175.64deg);
-      width: 18px;
-    }
-
-    .visuals-page-17 .rectangle-40-KlxaFc {
-      background-color: #fec2c1;
-      border: 1px none;
-      height: 126px;
-      left: 426px;
-      mix-blend-mode: normal;
-      position: absolute;
-      top: 693px;
-      transform: rotate(-184.51deg);
-      width: 18px;
-    }
-
-    .visuals-page-17 .rectangle-41-KlxaFc {
-      background-color: #fd4744;
-      border: 1px none;
-      height: 91px;
-      left: 475px;
-      mix-blend-mode: normal;
-      position: absolute;
-      top: 683px;
-      transform: rotate(-193.03deg);
-      width: 18px;
-    }
-
-    .visuals-page-17 .rectangle-2-ECyKP8 {
-      background-color: transparent;
-      height: 61px;
-      left: 70px;
-      mix-blend-mode: normal;
-      object-fit: cover;
-      position: absolute;
-      top: 45px;
-      width: 174px;
-    }
-
-    .visuals-page-17 .group-36-ECyKP8 {
+    .visuals-page-03 .group-36-xj49YD {
       background-color: transparent;
       height: 62px;
-      left: 1308px;
+      left: 315px;
       position: absolute;
-      top: 44px;
+      top: 15px;
       width: 62px;
     }
 
-    .visuals-page-17 .ellipse-1-z3tHmC {
-      background-color: #f910000a;
+    .visuals-page-03 .ellipse-1-wqngxM {
+      background-color: var(--visual-colorred-c8);
       border: 0.6111111044883728px none;
       border-radius: 31px;
       height: 62px;
@@ -519,7 +425,7 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
       width: 62px;
     }
 
-    .visuals-page-17 .group-35-z3tHmC {
+    .visuals-page-03 .group-35-wqngxM {
       background-color: transparent;
       height: 20px;
       left: 19px;
@@ -528,8 +434,8 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
       width: 24px;
     }
 
-    .visuals-page-17 .rectangle-21-4APSs7 {
-      background-color: var(--visual-colorred-c4);
+    .visuals-page-03 .rectangle-21-iXwbjy {
+      background-color: var(--visual-colorblack-c1);
       border: 1px none;
       border-radius: 1.5px;
       height: 2px;
@@ -540,8 +446,8 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
       width: 24px;
     }
 
-    .visuals-page-17 .rectangle-22-4APSs7 {
-      background-color: var(--visual-colorred-c4);
+    .visuals-page-03 .rectangle-22-iXwbjy {
+      background-color: var(--visual-colorblack-c1);
       border: 1px none;
       border-radius: 1.5px;
       height: 2px;
@@ -552,8 +458,8 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
       width: 14px;
     }
 
-    .visuals-page-17 .rectangle-23-4APSs7 {
-      background-color: var(--visual-colorred-c4);
+    .visuals-page-03 .rectangle-23-iXwbjy {
+      background-color: var(--visual-colorblack-c1);
       border: 1px none;
       border-radius: 1.5px;
       height: 2px;
@@ -564,81 +470,33 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
       width: 18px;
     }
 
-    .visuals-page-17 .rectangle-3-ECyKP8 {
-      background-color: var(--visual-colorblack-c6);
-      border: 8px solid;
-      border-color: var(--visual-colorred-c4);
-      height: 829px;
-      left: 70px;
-      mix-blend-mode: normal;
-      position: absolute;
-      top: 404px;
-      width: 1300px;
-    }
-
-    .visuals-page-17 .rectangle-4-ECyKP8 {
-      background-color: var(--visual-colorred-c4);
-      border: 1px none;
-      height: 5px;
-      left: 70px;
-      mix-blend-mode: normal;
-      position: absolute;
-      top: 1228px;
-      width: 1300px;
-    }
-
-    .visuals-page-17 .frame-55-ECyKP8 {
-      align-items: flex-start;
+    .visuals-page-03 .rectangle-2-xj49YD {
       background-color: transparent;
-      border: 1px none;
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-      height: auto;
-      left: 160px;
+      height: 33px;
+      left: 14px;
+      mix-blend-mode: normal;
+      object-fit: cover;
       position: absolute;
-      top: 458px;
-      width: fit-content;
+      top: 30px;
+      width: 94px;
     }
 
-    .visuals-page-17 .register-startup-pDg9Sy {
-      background-color: transparent;
-      color: var(--visual-colorblack-c1);
-      font-style: normal;
-      font-weight: 700;
-      line-height: normal;
-      margin-top: -1.00px;
-      mix-blend-mode: normal;
-      position: relative;
-      text-align: left;
-      width: 467px;
-    }
-
-    .visuals-page-17 .rectangle-31-pDg9Sy {
-      background-color: var(--visual-colorred-c4);
-      border: 1px none;
-      height: 5px;
-      min-width: 138px;
-      mix-blend-mode: normal;
-      position: relative;
-    }
-
-    .visuals-page-17 .frame-76-ECyKP8 {
+    .visuals-page-03 .frame-76-xj49YD {
       align-items: flex-start;
-      background-color: var(--visual-colorblack-c1);
+      background-color: var(--wireframecolor-c1);
       border: 1px none;
       display: flex;
       gap: 10px;
       height: auto;
-      left: 651px;
+      left: 175px;
       mix-blend-mode: normal;
       padding: 18px 33px;
       position: absolute;
-      top: 1069px;
+      top: 1253px;
       width: fit-content;
     }
 
-    .visuals-page-17 .register-7HRG6b {
+    .visuals-page-03 .send-message-SREDbA {
       background-color: transparent;
       color: var(--white);
       font-style: normal;
@@ -651,355 +509,103 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
       width: fit-content;
     }
 
-    .visuals-page-17 .group-46-ECyKP8 {
+    .visuals-page-03 .group-48-xj49YD {
       background-color: transparent;
-      height: 406px;
-      left: 160px;
+      height: 479px;
+      left: 156px;
       position: absolute;
-      top: 564px;
-      width: 496px;
+      top: 137px;
+      transform: rotate(101.15deg);
+      width: 468px;
     }
 
-    .visuals-page-17 .frame-82-yuEefb {
-      align-items: flex-end;
-      background-color: transparent;
-      border: 1px none;
-      display: flex;
-      flex-direction: column;
-      gap: 60px;
-      height: auto;
-      left: 0px;
-      position: absolute;
-      top: 54px;
-      width: fit-content;
-    }
-
-    .visuals-page-17 .frame-49-KIqhs0 {
-      align-items: flex-start;
-      background-color: transparent;
-      border: 1px none;
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-      height: auto;
-      position: relative;
-      width: 494px;
-    }
-
-    .visuals-page-17 .your-name-EcYnrK {
-      background-color: transparent;
-      color: var(--visual-colorblack-c1);
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      margin-top: -1.00px;
-      mix-blend-mode: normal;
-      position: relative;
-      text-align: left;
-      width: fit-content;
-    }
-
-    .visuals-page-17 .line-3-EcYnrK {
-      align-self: stretch;
-      background-color: transparent;
-      height: 1px;
-      min-width: 494px;
-      object-fit: cover;
-      position: relative;
-    }
-
-    .visuals-page-17 .frame-64-KIqhs0 {
-      align-items: flex-start;
-      background-color: transparent;
-      border: 1px none;
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-      height: auto;
-      position: relative;
-      width: 494px;
-    }
-
-    .visuals-page-17 .your-mail-iLNFeJ {
-      background-color: transparent;
-      color: var(--visual-colorblack-c1);
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      margin-top: -1.00px;
-      mix-blend-mode: normal;
-      position: relative;
-      text-align: left;
-      width: fit-content;
-    }
-
-    .visuals-page-17 .line-3-iLNFeJ {
-      align-self: stretch;
-      background-color: transparent;
-      height: 1px;
-      min-width: 494px;
-      object-fit: cover;
-      position: relative;
-    }
-
-    .visuals-page-17 .frame-65-KIqhs0 {
-      align-items: flex-start;
-      background-color: transparent;
-      border: 1px none;
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-      height: auto;
-      position: relative;
-      width: 494px;
-    }
-
-    .visuals-page-17 .your-phone-number-l7ZnmN {
-      background-color: transparent;
-      color: var(--visual-colorblack-c1);
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      margin-top: -1.00px;
-      mix-blend-mode: normal;
-      position: relative;
-      text-align: left;
-      width: fit-content;
-    }
-
-    .visuals-page-17 .line-3-l7ZnmN {
-      align-self: stretch;
-      background-color: transparent;
-      height: 1px;
-      min-width: 494px;
-      object-fit: cover;
-      position: relative;
-    }
-
-    .visuals-page-17 .frame-66-KIqhs0 {
-      align-items: flex-start;
-      background-color: transparent;
-      border: 1px none;
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-      height: auto;
-      position: relative;
-      width: 494px;
-    }
-
-    .visuals-page-17 .position-in-startup-V1pVYe {
-      background-color: transparent;
-      color: var(--visual-colorblack-c1);
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      margin-top: -1.00px;
-      mix-blend-mode: normal;
-      position: relative;
-      text-align: left;
-      width: fit-content;
-    }
-
-    .visuals-page-17 .line-3-V1pVYe {
-      align-self: stretch;
-      background-color: transparent;
-      height: 1px;
-      min-width: 494px;
-      object-fit: cover;
-      position: relative;
-    }
-
-    .visuals-page-17 .your-info-yuEefb {
-      background-color: transparent;
-      color: var(--visual-colorblack-c1);
-      font-style: normal;
-      font-weight: 700;
-      height: auto;
-      left: 0px;
-      line-height: normal;
+    .visuals-page-03 .ellipse-2-cid7x1 {
+      background-color: #fd4744;
+      border: 0.5836116075515747px none;
+      border-radius: 166.33px;
+      height: 333px;
+      left: 68px;
       mix-blend-mode: normal;
       position: absolute;
-      text-align: left;
-      top: 0px;
-      width: auto;
+      top: 68px;
+      transform: rotate(-129.60deg);
+      width: 333px;
     }
 
-    .visuals-page-17 .group-47-ECyKP8 {
-      background-color: transparent;
-      height: 411px;
-      left: 785px;
-      position: absolute;
-      top: 561px;
-      width: 496px;
-    }
-
-    .visuals-page-17 .frame-83-vIkxHn {
-      align-items: flex-end;
-      background-color: transparent;
-      border: 1px none;
-      display: flex;
-      flex-direction: column;
-      gap: 60px;
-      height: auto;
-      left: 0px;
-      position: absolute;
-      top: 59px;
-      width: fit-content;
-    }
-
-    .visuals-page-17 .frame-49-EpGhHv {
-      align-items: flex-start;
-      background-color: transparent;
-      border: 1px none;
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-      height: auto;
-      position: relative;
-      width: 494px;
-    }
-
-    .visuals-page-17 .startup-name-57gJpn {
-      background-color: transparent;
-      color: var(--visual-colorblack-c1);
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      margin-top: -1.00px;
-      mix-blend-mode: normal;
-      position: relative;
-      text-align: left;
-      width: fit-content;
-    }
-
-    .visuals-page-17 .line-3-57gJpn {
-      align-self: stretch;
-      background-color: transparent;
-      height: 1px;
-      min-width: 494px;
-      object-fit: cover;
-      position: relative;
-    }
-
-    .visuals-page-17 .frame-64-EpGhHv {
-      align-items: flex-start;
-      background-color: transparent;
-      border: 1px none;
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-      height: auto;
-      position: relative;
-      width: 494px;
-    }
-
-    .visuals-page-17 .founding-year-NLmQFd {
-      background-color: transparent;
-      color: var(--visual-colorblack-c1);
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      margin-top: -1.00px;
-      mix-blend-mode: normal;
-      position: relative;
-      text-align: left;
-      width: fit-content;
-    }
-
-    .visuals-page-17 .line-3-NLmQFd {
-      align-self: stretch;
-      background-color: transparent;
-      height: 1px;
-      min-width: 494px;
-      object-fit: cover;
-      position: relative;
-    }
-
-    .visuals-page-17 .frame-65-EpGhHv {
-      align-items: flex-start;
-      background-color: transparent;
-      border: 1px none;
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-      height: auto;
-      position: relative;
-      width: 494px;
-    }
-
-    .visuals-page-17 .category-r0IWbE {
-      background-color: transparent;
-      color: var(--visual-colorblack-c1);
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      margin-top: -1.00px;
-      mix-blend-mode: normal;
-      position: relative;
-      text-align: left;
-      width: fit-content;
-    }
-
-    .visuals-page-17 .line-3-r0IWbE {
-      align-self: stretch;
-      background-color: transparent;
-      height: 1px;
-      min-width: 494px;
-      object-fit: cover;
-      position: relative;
-    }
-
-    .visuals-page-17 .frame-66-EpGhHv {
-      align-items: flex-start;
-      background-color: transparent;
-      border: 1px none;
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-      height: auto;
-      position: relative;
-      width: 494px;
-    }
-
-    .visuals-page-17 .looking-for-zGTrI5 {
-      background-color: transparent;
-      color: var(--visual-colorblack-c1);
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      margin-top: -1.00px;
-      mix-blend-mode: normal;
-      position: relative;
-      text-align: left;
-      width: fit-content;
-    }
-
-    .visuals-page-17 .line-3-zGTrI5 {
-      align-self: stretch;
-      background-color: transparent;
-      height: 1px;
-      min-width: 494px;
-      object-fit: cover;
-      position: relative;
-    }
-
-    .visuals-page-17 .startup-info-vIkxHn {
-      background-color: transparent;
-      color: var(--visual-colorblack-c1);
-      font-style: normal;
-      font-weight: 700;
-      height: auto;
-      left: 0px;
-      line-height: normal;
+    .visuals-page-03 .ellipse-4-cid7x1 {
+      background-color: var(--white);
+      border: 0.5836116075515747px none;
+      border-radius: 117.92px;
+      height: 236px;
+      left: 116px;
       mix-blend-mode: normal;
       position: absolute;
-      text-align: left;
-      top: 0px;
-      width: auto;
+      top: 116px;
+      transform: rotate(-129.60deg);
+      width: 236px;
     }
 
-    .visuals-page-17 .frame-77-ECyKP8 {
+    .visuals-page-03 .rectangle-37-cid7x1 {
+      background-color: var(--visual-colorred-c4);
+      border: 0.5836116075515747px none;
+      height: 39px;
+      left: 46px;
+      mix-blend-mode: normal;
+      position: absolute;
+      top: 262px;
+      transform: rotate(-106.79deg);
+      width: 11px;
+    }
+
+    .visuals-page-03 .rectangle-38-cid7x1 {
+      background-color: #fd474354;
+      border: 0.5836116075515747px none;
+      height: 17px;
+      left: 187px;
+      mix-blend-mode: normal;
+      position: absolute;
+      top: 399px;
+      transform: rotate(-167.33deg);
+      width: 11px;
+    }
+
+    .visuals-page-03 .rectangle-39-cid7x1 {
+      background-color: var(--visual-colorred-c4);
+      border: 0.5836116075515747px none;
+      height: 39px;
+      left: 215px;
+      mix-blend-mode: normal;
+      position: absolute;
+      top: 404px;
+      transform: rotate(-175.64deg);
+      width: 11px;
+    }
+
+    .visuals-page-03 .rectangle-40-cid7x1 {
+      background-color: #fec2c1;
+      border: 0.5836116075515747px none;
+      height: 74px;
+      left: 249px;
+      mix-blend-mode: normal;
+      position: absolute;
+      top: 405px;
+      transform: rotate(-184.51deg);
+      width: 11px;
+    }
+
+    .visuals-page-03 .rectangle-41-cid7x1 {
+      background-color: #fd4744;
+      border: 0.5836116075515747px none;
+      height: 53px;
+      left: 277px;
+      mix-blend-mode: normal;
+      position: absolute;
+      top: 399px;
+      transform: rotate(-193.03deg);
+      width: 11px;
+    }
+
+    .visuals-page-03 .frame-77-xj49YD {
       align-items: flex-start;
       background-color: transparent;
       border: 1px none;
@@ -1007,13 +613,13 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
       flex-direction: column;
       gap: 40px;
       height: auto;
-      left: 160px;
+      left: 17px;
       position: absolute;
-      top: 172px;
+      top: 122px;
       width: fit-content;
     }
 
-    .visuals-page-17 .we-partner-with-top-7CI9vt {
+    .visuals-page-03 .we-partner-with-top-MfG32i {
       background-color: transparent;
       color: transparent;
       font-family: var(--font-family-space_grotesk);
@@ -1025,100 +631,80 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
       margin-top: -1.00px;
       position: relative;
       text-align: left;
-      width: 508px;
-      font-size: 40px;
+      width: 356px;
     }
 
-    .visuals-page-17 .span0-pLo0x1 {
+    .visuals-page-03 .span0-uML4ii {
       color: var(--visual-colorblack-c1);
       font-style: normal;
     }
 
-    .visuals-page-17 .span1-pLo0x1 {
+    .visuals-page-03 .span1-uML4ii {
       color: var(--visual-colorred-c4);
       font-style: normal;
     }
 
-    .visuals-page-17 .span2-pLo0x1 {
+    .visuals-page-03 .span2-uML4ii {
       color: var(--visual-colorblack-c1);
       font-style: normal;
     }
 
-    .visuals-page-17 .group-48096683-ECyKP8 {
-      background-color: transparent;
-      height: 742px;
-      left: 0px;
-      position: absolute;
-      top: 1333px;
-      width: 100%;
-    }
-
-    .visuals-page-17 .group-48096680-x6SMVN {
-      background-color: transparent;
-      height: 392px;
-      left: 0px;
-      position: absolute;
-      top: 350px;
-      width: 100%;
-    }
-
-    .visuals-page-17 .rectangle-49-a4JgLJ {
-      background-color: transparent;
-      height: 392px;
-      left: 0px;
+    .visuals-page-03 .frame-48096695-xj49YD {
+      align-items: flex-start;
+      background-color: var(--visual-colorblack-c6);
+      border: 4px solid;
+      border-color: var(--visual-colorred-c4);
+      display: flex;
+      gap: 10px;
+      height: auto;
+      left: 4px;
       mix-blend-mode: normal;
+      padding: 50px 35px;
       position: absolute;
-      top: 0px;
-      width: 100%;
+      top: 341px;
+      width: 383px;
     }
 
-    .visuals-page-17 .frame-48096692-a4JgLJ {
-      align-items: center;
+    .visuals-page-03 .frame-48096694-V9eowx {
+      align-items: flex-end;
       background-color: transparent;
       border: 1px none;
       display: flex;
       flex-direction: column;
-      gap: 53px;
+      gap: 65px;
       height: auto;
-      left: 70px;
-      position: absolute;
-      top: 91px;
+      justify-content: flex-end;
+      margin-right: -1.00px;
+      position: relative;
       width: fit-content;
     }
 
-    .visuals-page-17 .frame-48096691-XiBZGW {
-      align-items: flex-start;
-      background-color: transparent;
-      border: 1px none;
-      display: flex;
-      gap: 424px;
-      height: auto;
-      position: relative;
-      width: 1300px;
-    }
-
-    .visuals-page-17 .frame-48096690-M3fQy4 {
+    .visuals-page-03 .frame-48096693-F593yD {
       align-items: flex-start;
       background-color: transparent;
       border: 1px none;
       display: flex;
       flex-direction: column;
-      gap: 31px;
+      gap: 60px;
       height: auto;
       position: relative;
       width: fit-content;
     }
 
-    .visuals-page-17 .rectangle-50-IEb8oH {
+    .visuals-page-03 .register-startup-E9pHWB {
       background-color: transparent;
-      height: 50.2021484375px;
-      min-width: 143px;
+      color: var(--visual-colorblack-c1);
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      margin-top: -1.00px;
       mix-blend-mode: normal;
-      object-fit: cover;
       position: relative;
+      text-align: left;
+      width: fit-content;
     }
 
-    .visuals-page-17 .demo-text-here-IEb8oH {
+    .visuals-page-03 .your-info-E9pHWB {
       background-color: transparent;
       color: var(--visual-colorblack-c1);
       font-style: normal;
@@ -1130,19 +716,31 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
       width: fit-content;
     }
 
-    .visuals-page-17 .frame-48096686-M3fQy4 {
-      align-items: flex-start;
+    .visuals-page-03 .frame-82-E9pHWB {
+      align-items: flex-end;
       background-color: transparent;
       border: 1px none;
       display: flex;
       flex-direction: column;
-      gap: 15px;
+      gap: 40px;
       height: auto;
       position: relative;
       width: fit-content;
     }
 
-    .visuals-page-17 .who-we-are-C8R3u4 {
+    .visuals-page-03 .frame-49-fAnVii {
+      align-items: flex-start;
+      background-color: transparent;
+      border: 1px none;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      height: auto;
+      position: relative;
+      width: fit-content;
+    }
+
+    .visuals-page-03 .your-name-kB7l0B {
       background-color: transparent;
       color: var(--visual-colorblack-c1);
       font-style: normal;
@@ -1155,211 +753,334 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
       width: fit-content;
     }
 
-    .visuals-page-17 .portfolio-C8R3u4 {
+    .visuals-page-03 .line-3-kB7l0B {
       background-color: transparent;
-      color: var(--visual-colorblack-c1);
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      mix-blend-mode: normal;
-      position: relative;
-      text-align: left;
-      width: fit-content;
-    }
-
-    .visuals-page-17 .team-C8R3u4 {
-      background-color: transparent;
-      color: var(--visual-colorblack-c1);
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      mix-blend-mode: normal;
-      position: relative;
-      text-align: left;
-      width: fit-content;
-    }
-
-    .visuals-page-17 .value-of-good-C8R3u4 {
-      background-color: transparent;
-      color: var(--visual-colorblack-c1);
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      mix-blend-mode: normal;
-      position: relative;
-      text-align: left;
-      width: fit-content;
-    }
-
-    .visuals-page-17 .fireside-ignite-C8R3u4 {
-      background-color: transparent;
-      color: var(--visual-colorblack-c1);
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      mix-blend-mode: normal;
-      position: relative;
-      text-align: left;
-      width: fit-content;
-    }
-
-    .visuals-page-17 .frame-48096688-M3fQy4 {
-      align-items: flex-start;
-      background-color: transparent;
-      border: 1px none;
-      display: flex;
-      gap: 60px;
-      height: auto;
-      position: relative;
-      width: fit-content;
-    }
-
-    .visuals-page-17 .group-48096675-JDH6Qz {
-      background-color: transparent;
-      height: 24px;
-      min-width: 24px;
+      height: 1px;
+      min-width: 314px;
+      object-fit: cover;
       position: relative;
     }
 
-    .visuals-page-17 .linkedin-RV083i {
-      background-color: transparent;
-      height: 24px;
-      left: 0px;
-      mix-blend-mode: normal;
-      position: absolute;
-      top: 0px;
-      width: 24px;
-    }
-
-    .visuals-page-17 .group-48096676-JDH6Qz {
-      background-color: transparent;
-      height: 24px;
-      min-width: 24px;
-      position: relative;
-    }
-
-    .visuals-page-17 .youtube-SVcMKc {
-      background-color: transparent;
-      height: 24px;
-      left: 0px;
-      mix-blend-mode: normal;
-      position: absolute;
-      top: 0px;
-      width: 24px;
-    }
-
-    .visuals-page-17 .frame-48096687-XiBZGW {
-      align-items: center;
-      background-color: transparent;
-      border: 1px none;
-      display: flex;
-      gap: 18px;
-      height: auto;
-      position: relative;
-      width: fit-content;
-    }
-
-    .visuals-page-17 .all-rights-reserved-GmvfGH {
-      background-color: transparent;
-      color: var(--visual-colorblack-c1);
-      font-style: normal;
-      font-weight: 400;
-      line-height: 21px;
-      mix-blend-mode: normal;
-      position: relative;
-      text-align: left;
-      white-space: nowrap;
-      width: fit-content;
-    }
-
-    .visuals-page-17 .rectangle-6353-GmvfGH {
-      background-color: var(--visual-colorblack-c1);
-      border: 1px none;
-      height: 30px;
-      min-width: 1px;
-      mix-blend-mode: normal;
-      position: relative;
-    }
-
-    .visuals-page-17 .privacy-policy-GmvfGH {
-      background-color: transparent;
-      color: var(--visual-colorblack-c1);
-      font-style: normal;
-      font-weight: 400;
-      line-height: 21px;
-      mix-blend-mode: normal;
-      position: relative;
-      text-align: left;
-      white-space: nowrap;
-      width: fit-content;
-    }
-
-    .visuals-page-17 .rectangle-6354-GmvfGH {
-      background-color: var(--visual-colorblack-c1);
-      border: 1px none;
-      height: 30px;
-      min-width: 1px;
-      mix-blend-mode: normal;
-      position: relative;
-    }
-
-    .visuals-page-17 .terms-of-use-GmvfGH {
-      background-color: transparent;
-      color: var(--visual-colorblack-c1);
-      font-style: normal;
-      font-weight: 400;
-      line-height: 21px;
-      mix-blend-mode: normal;
-      position: relative;
-      text-align: left;
-      white-space: nowrap;
-      width: fit-content;
-    }
-
-    .visuals-page-17 .group-48096682-x6SMVN {
-      background-color: transparent;
-      height: 384px;
-      left: 0px;
-      position: absolute;
-      top: 0px;
-      width: 100%;
-    }
-
-    .visuals-page-17 .rectangle-50-160wS4 {
-      background-color: var(--visual-colorblack-c1);
-      border: 1px none;
-      height: 306px;
-      left: 0px;
-      mix-blend-mode: normal;
-      position: absolute;
-      top: 44px;
-      width: 100%;
-    }
-
-    .visuals-page-17 .group-48096681-160wS4 {
-      background-color: transparent;
-      height: 384px;
-      left: 160px;
-      position: absolute;
-      top: 0px;
-      width: 1119px;
-    }
-
-    .visuals-page-17 .frame-48096684-dFiyXD {
+    .visuals-page-03 .frame-64-fAnVii {
       align-items: flex-start;
       background-color: transparent;
       border: 1px none;
       display: flex;
       flex-direction: column;
-      gap: 24px;
+      gap: 16px;
       height: auto;
-      left: 0px;
-      position: absolute;
-      top: 105px;
+      position: relative;
       width: fit-content;
     }
 
-    .visuals-page-17 .frame-78-hdPG06 {
+    .visuals-page-03 .your-mail-0NSB6A {
+      background-color: transparent;
+      color: var(--visual-colorblack-c1);
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-top: -1.00px;
+      mix-blend-mode: normal;
+      position: relative;
+      text-align: left;
+      width: fit-content;
+    }
+
+    .visuals-page-03 .line-3-0NSB6A {
+      background-color: transparent;
+      height: 1px;
+      min-width: 314px;
+      object-fit: cover;
+      position: relative;
+    }
+
+    .visuals-page-03 .frame-65-fAnVii {
+      align-items: flex-start;
+      background-color: transparent;
+      border: 1px none;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      height: auto;
+      position: relative;
+      width: fit-content;
+    }
+
+    .visuals-page-03 .your-phone-number-OgBwxI {
+      background-color: transparent;
+      color: var(--visual-colorblack-c1);
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-top: -1.00px;
+      mix-blend-mode: normal;
+      position: relative;
+      text-align: left;
+      width: fit-content;
+    }
+
+    .visuals-page-03 .line-3-OgBwxI {
+      background-color: transparent;
+      height: 1px;
+      min-width: 314px;
+      object-fit: cover;
+      position: relative;
+    }
+
+    .visuals-page-03 .frame-66-fAnVii {
+      align-items: flex-start;
+      background-color: transparent;
+      border: 1px none;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      height: auto;
+      position: relative;
+      width: fit-content;
+    }
+
+    .visuals-page-03 .position-in-startup-mbPc6P {
+      background-color: transparent;
+      color: var(--visual-colorblack-c1);
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-top: -1.00px;
+      mix-blend-mode: normal;
+      position: relative;
+      text-align: left;
+      width: fit-content;
+    }
+
+    .visuals-page-03 .line-3-mbPc6P {
+      background-color: transparent;
+      height: 1px;
+      min-width: 314px;
+      object-fit: cover;
+      position: relative;
+    }
+
+    .visuals-page-03 .startup-info-E9pHWB {
+      background-color: transparent;
+      color: var(--visual-colorblack-c1);
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      mix-blend-mode: normal;
+      position: relative;
+      text-align: left;
+      width: fit-content;
+    }
+
+    .visuals-page-03 .frame-83-E9pHWB {
+      align-items: flex-end;
+      background-color: transparent;
+      border: 1px none;
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      height: auto;
+      position: relative;
+      width: fit-content;
+    }
+
+    .visuals-page-03 .frame-49-i3eknL {
+      align-items: flex-start;
+      background-color: transparent;
+      border: 1px none;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      height: auto;
+      position: relative;
+      width: fit-content;
+    }
+
+    .visuals-page-03 .startup-name-OxDC70 {
+      background-color: transparent;
+      color: var(--visual-colorblack-c1);
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-top: -1.00px;
+      mix-blend-mode: normal;
+      position: relative;
+      text-align: left;
+      width: fit-content;
+    }
+
+    .visuals-page-03 .line-3-OxDC70 {
+      background-color: transparent;
+      height: 1px;
+      min-width: 314px;
+      object-fit: cover;
+      position: relative;
+    }
+
+    .visuals-page-03 .frame-64-i3eknL {
+      align-items: flex-start;
+      background-color: transparent;
+      border: 1px none;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      height: auto;
+      position: relative;
+      width: fit-content;
+    }
+
+    .visuals-page-03 .founding-year-1CCbYx {
+      background-color: transparent;
+      color: var(--visual-colorblack-c1);
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-top: -1.00px;
+      mix-blend-mode: normal;
+      position: relative;
+      text-align: left;
+      width: fit-content;
+    }
+
+    .visuals-page-03 .line-3-1CCbYx {
+      background-color: transparent;
+      height: 1px;
+      min-width: 314px;
+      object-fit: cover;
+      position: relative;
+    }
+
+    .visuals-page-03 .frame-65-i3eknL {
+      align-items: flex-start;
+      background-color: transparent;
+      border: 1px none;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      height: auto;
+      position: relative;
+      width: fit-content;
+    }
+
+    .visuals-page-03 .category-2TiY3T {
+      background-color: transparent;
+      color: var(--visual-colorblack-c1);
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-top: -1.00px;
+      mix-blend-mode: normal;
+      position: relative;
+      text-align: left;
+      width: fit-content;
+    }
+
+    .visuals-page-03 .line-3-2TiY3T {
+      background-color: transparent;
+      height: 1px;
+      min-width: 314px;
+      object-fit: cover;
+      position: relative;
+    }
+
+    .visuals-page-03 .frame-66-i3eknL {
+      align-items: flex-start;
+      background-color: transparent;
+      border: 1px none;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      height: auto;
+      position: relative;
+      width: fit-content;
+    }
+
+    .visuals-page-03 .looking-for-nNx5Ot {
+      background-color: transparent;
+      color: var(--visual-colorblack-c1);
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-top: -1.00px;
+      mix-blend-mode: normal;
+      position: relative;
+      text-align: left;
+      width: fit-content;
+    }
+
+    .visuals-page-03 .line-3-nNx5Ot {
+      background-color: transparent;
+      height: 1px;
+      min-width: 314px;
+      object-fit: cover;
+      position: relative;
+    }
+
+    .visuals-page-03 .frame-76-F593yD {
+      align-items: flex-start;
+      background-color: var(--visual-colorblack-c1);
+      border: 1px none;
+      display: flex;
+      gap: 10px;
+      height: auto;
+      mix-blend-mode: normal;
+      padding: 18px 33px;
+      position: relative;
+      width: fit-content;
+    }
+
+    .visuals-page-03 .register-VZ6Iys {
+      background-color: transparent;
+      color: var(--white);
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-top: -1.00px;
+      mix-blend-mode: normal;
+      position: relative;
+      text-align: left;
+      width: fit-content;
+    }
+
+    .visuals-page-03 .group-48096705-xj49YD {
+      background-color: transparent;
+      height: 940px;
+      left: 0px;
+      position: absolute;
+      top: 1587px;
+      width: 390px;
+    }
+
+    .visuals-page-03 .group-48096704-qB8yiN {
+      background-color: transparent;
+      height: 361px;
+      left: 0px;
+      position: absolute;
+      top: 0px;
+      width: 390px;
+    }
+
+    .visuals-page-03 .rectangle-50-rLWxw7 {
+      background-color: #171717;
+      border: 1px none;
+      height: 361px;
+      left: 0px;
+      mix-blend-mode: normal;
+      position: absolute;
+      top: 0px;
+      width: 390px;
+    }
+
+    .visuals-page-03 .group-48096703-rLWxw7 {
+      background-color: transparent;
+      height: 250px;
+      left: 17px;
+      position: absolute;
+      top: 43px;
+      width: 356px;
+    }
+
+    .visuals-page-03 .frame-78-zol5ix {
       align-items: flex-start;
       background-color: transparent;
       border: 1px none;
@@ -1367,13 +1088,15 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
       flex-direction: column;
       gap: 8px;
       height: auto;
-      position: relative;
+      left: 0px;
+      position: absolute;
+      top: 0px;
       width: fit-content;
     }
 
-    .visuals-page-17 .subscribe-to-to-new-letters-x6wY1y {
+    .visuals-page-03 .subscribe-to-to-new-letters-2WinUJ {
       background-color: transparent;
-      color: var(--visual-colorblack-c7);
+      color: var(--wireframecolor-c3);
       font-style: normal;
       font-weight: 700;
       line-height: normal;
@@ -1384,30 +1107,34 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
       width: fit-content;
     }
 
-    .visuals-page-17 .lorem-ipsum-is-simpl-x6wY1y {
+    .visuals-page-03 .lorem-ipsum-is-simpl-2WinUJ {
       background-color: transparent;
-      color: var(--visual-colorblack-c7);
+      color: var(--wireframecolor-c3);
       font-style: normal;
       font-weight: 400;
-      line-height: 27px;
-      font-size: 20px;
+      line-height: 18px;
       mix-blend-mode: normal;
       position: relative;
       text-align: left;
-      width: 532px;
+      width: 301px;
     }
 
-    .visuals-page-17 .frame-77-hdPG06 {
-      align-items: flex-start;
+    .visuals-page-03 .frame-77-zol5ix {
+      align-items: center;
       background-color: transparent;
       border: 1px none;
       display: flex;
+      flex-direction: column;
+      gap: 20px;
       height: auto;
-      position: relative;
+      justify-content: center;
+      left: 0px;
+      position: absolute;
+      top: 116px;
       width: fit-content;
     }
 
-    .visuals-page-17 .frame-75-Xl1O84 {
+    .visuals-page-03 .frame-75-v4zMOB {
       align-items: flex-start;
       background-color: var(--white);
       border: 1px none;
@@ -1417,12 +1144,12 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
       mix-blend-mode: normal;
       padding: 18px 23px;
       position: relative;
-      width: 376px;
+      width: 356px;
     }
 
-    .visuals-page-17 .subscribe-to-newsletter-s6xUbo {
+    .visuals-page-03 .subscribe-to-newsletter-j1tPcJ {
       background-color: transparent;
-      color: var(--visual-colorblack-c1);
+      color: var(--black);
       font-style: normal;
       font-weight: 400;
       line-height: normal;
@@ -1431,10 +1158,9 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
       position: relative;
       text-align: left;
       width: fit-content;
-      font-size: 28px;
     }
 
-    .visuals-page-17 .frame-76-Xl1O84 {
+    .visuals-page-03 .frame-76-v4zMOB {
       align-items: flex-start;
       background-color: var(--visual-colorred-c4);
       border: 1px none;
@@ -1447,7 +1173,7 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
       width: fit-content;
     }
 
-    .visuals-page-17 .subscribe-8sMfST {
+    .visuals-page-03 .subscribe-ML31H8 {
       background-color: transparent;
       color: var(--white);
       font-style: normal;
@@ -1458,39 +1184,280 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
       position: relative;
       text-align: left;
       width: fit-content;
-      font-size: 28px;
     }
 
-    .visuals-page-17 .group-48096674-dFiyXD {
+    .visuals-page-03 .group-48096702-qB8yiN {
       background-color: transparent;
-      height: 384px;
-      left: 856px;
+      height: 579px;
+      left: 0px;
+      position: absolute;
+      top: 361px;
+      width: 390px;
+    }
+
+    .visuals-page-03 .group-48096643-j2LKiP {
+      background-color: transparent;
+      height: 579px;
+      left: 0px;
       position: absolute;
       top: 0px;
-      width: 263px;
+      width: 390px;
     }
 
-    .visuals-page-17 .rectangle-74-Fom32C {
-      background-color: transparent;
-      border: 10px solid;
-      border-color: var(--visual-colorred-c2);
-      height: 282px;
-      left: 88px;
-      position: absolute;
-      top: 0px;
-      width: 175px;
-    }
-
-    .visuals-page-17 .rectangle-70-Fom32C {
-      background-color: var(--visual-colorred-c4);
-      border: 4px solid;
-      border-color: var(--visual-colorred-c4);
-      height: 277px;
+    .visuals-page-03 .rectangle-49-fuRpal {
+      background-color: var(--visual-colorred-c8);
+      border: 1px none;
+      height: 579px;
       left: 0px;
       mix-blend-mode: normal;
+      position: relative;
+      top: 0px;
+      width: 390px;
+    }
+
+    .visuals-page-03 .group-48096701-j2LKiP {
+      background-color: transparent;
+      height: 439px;
+      left: 17px;
       position: absolute;
-      top: 107px;
-      width: 130px;
+      top: 62px;
+      width: 307px;
+    }
+
+    .visuals-page-03 .group-48096700-QAjtUR {
+      background-color: transparent;
+      height: 62px;
+      left: 50px;
+      position: absolute;
+      top: 377px;
+      width: 259px;
+    }
+
+    .visuals-page-03 .frame-48096687-VTyoK4 {
+      align-items: center;
+      background-color: transparent;
+      border: 1px none;
+      display: flex;
+      gap: 18px;
+      height: auto;
+      left: 0px;
+      position: absolute;
+      top: 0px;
+      width: fit-content;
+    }
+
+    .visuals-page-03 .all-rights-reserved-5Jh2Pe {
+      background-color: transparent;
+      color: var(--visual-colorblack-c1);
+      font-style: normal;
+      font-weight: 400;
+      line-height: 21px;
+      mix-blend-mode: normal;
+      position: relative;
+      text-align: left;
+      white-space: nowrap;
+      width: fit-content;
+    }
+
+    .visuals-page-03 .rectangle-6353-5Jh2Pe {
+      background-color: var(--visual-colorblack-c1);
+      border: 1px none;
+      height: 30px;
+      min-width: 1px;
+      mix-blend-mode: normal;
+      position: relative;
+    }
+
+    .visuals-page-03 .privacy-policy-5Jh2Pe {
+      background-color: transparent;
+      color: var(--visual-colorblack-c1);
+      font-style: normal;
+      font-weight: 400;
+      line-height: 21px;
+      mix-blend-mode: normal;
+      position: relative;
+      text-align: left;
+      white-space: nowrap;
+      width: fit-content;
+    }
+
+    .visuals-page-03 .terms-of-use-VTyoK4 {
+      background-color: transparent;
+      color: var(--visual-colorblack-c1);
+      font-style: normal;
+      font-weight: 400;
+      height: auto;
+      left: 84px;
+      line-height: 21px;
+      mix-blend-mode: normal;
+      position: absolute;
+      text-align: left;
+      top: 41px;
+      white-space: nowrap;
+      width: auto;
+    }
+
+    .visuals-page-03 .frame-48096728-QAjtUR {
+      align-items: flex-start;
+      background-color: transparent;
+      border: 1px none;
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      height: auto;
+      left: 0px;
+      position: absolute;
+      top: 0px;
+      width: fit-content;
+    }
+
+    .visuals-page-03 .frame-48096727-B97U39 {
+      align-items: flex-start;
+      background-color: transparent;
+      border: 1px none;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      height: auto;
+      position: relative;
+      width: fit-content;
+    }
+
+    .visuals-page-03 .rectangle-50-skIzQz {
+      background-color: transparent;
+      height: 33px;
+      min-width: 94px;
+      mix-blend-mode: normal;
+      object-fit: cover;
+      position: relative;
+    }
+
+    .visuals-page-03 .demo-text-here-skIzQz {
+      background-color: transparent;
+      color: var(--visual-colorblack-c1);
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      mix-blend-mode: normal;
+      position: relative;
+      text-align: left;
+      width: fit-content;
+    }
+
+    .visuals-page-03 .frame-48096686-B97U39 {
+      align-items: flex-start;
+      background-color: transparent;
+      border: 1px none;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      height: auto;
+      position: relative;
+      width: fit-content;
+    }
+
+    .visuals-page-03 .who-we-are-xxR3sf {
+      background-color: transparent;
+      color: var(--visual-colorblack-c1);
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-top: -1.00px;
+      mix-blend-mode: normal;
+      position: relative;
+      text-align: left;
+      width: fit-content;
+    }
+
+    .visuals-page-03 .portfolio-xxR3sf {
+      background-color: transparent;
+      color: var(--visual-colorblack-c1);
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      mix-blend-mode: normal;
+      position: relative;
+      text-align: left;
+      width: fit-content;
+    }
+
+    .visuals-page-03 .team-xxR3sf {
+      background-color: transparent;
+      color: var(--visual-colorblack-c1);
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      mix-blend-mode: normal;
+      position: relative;
+      text-align: left;
+      width: fit-content;
+    }
+
+    .visuals-page-03 .value-of-good-xxR3sf {
+      background-color: transparent;
+      color: var(--visual-colorblack-c1);
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      mix-blend-mode: normal;
+      position: relative;
+      text-align: left;
+      width: fit-content;
+    }
+
+    .visuals-page-03 .fireside-ignite-xxR3sf {
+      background-color: transparent;
+      color: var(--visual-colorblack-c1);
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      mix-blend-mode: normal;
+      position: relative;
+      text-align: left;
+      width: fit-content;
+    }
+
+    .visuals-page-03 .frame-58-B97U39 {
+      align-items: flex-start;
+      background-color: transparent;
+      border: 1px none;
+      display: flex;
+      gap: 57px;
+      height: auto;
+      position: relative;
+      width: fit-content;
+    }
+
+    .visuals-page-03 .facebook-XL9im9 {
+      background-color: transparent;
+      height: 24px;
+      min-width: 24px;
+      mix-blend-mode: normal;
+      position: relative;
+    }
+
+    .visuals-page-03 .linkedin-XL9im9 {
+      background-color: transparent;
+      height: 24px;
+      min-width: 24px;
+      mix-blend-mode: normal;
+      position: relative;
+    }
+
+    .visuals-page-03 .link-XL9im9 {
+      background-color: transparent;
+      height: 24px;
+      min-width: 24px;
+      mix-blend-mode: normal;
+      position: relative;
+    }
+
+    .visuals-page-03 .twitter-XL9im9 {
+      background-color: transparent;
+      height: 24px;
+      min-width: 24px;
+      mix-blend-mode: normal;
+      position: relative;
     }
   </style>
   <style id="action-links-styles">
@@ -1820,174 +1787,176 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
       }
     }
   </style>
-  <link rel="stylesheet" href="./styles/menu-desktop.css">
+  <script id="anime-js-script" src="Register%20Startup-mobile_files/anime.min.js"
+    integrity="sha256-98Q574VkbV+PkxXCKSgL6jVq9mrVbS7uCdA+vt0sLS8=" crossorigin="anonymous"></script>
+  <script id="imgloaded-js-script" src="Register%20Startup-mobile_files/imagesloaded.pkgd.min.js"></script>
 </head>
 
-<body style="margin: 0;background: #ffffff;"><input type="hidden" id="anPageName" name="page" value="visuals-page-17">
+<body style="margin: 0;background: #ffffff;"><input type="hidden" id="anPageName" name="page" value="visuals-page-03">
   <div class="container-center-horizontal">
-    <div class="visuals-page-17 screen " data-id="326:3704">
-      <div class="group-48-ECyKP8" data-id="326:3705">
-        <div class="ellipse-2-KlxaFc" data-id="326:3706"></div>
-        <div class="ellipse-4-KlxaFc" data-id="326:3707"></div>
-        <div class="rectangle-37-KlxaFc" data-id="326:3708"></div>
-        <div class="rectangle-38-KlxaFc" data-id="326:3709"></div>
-        <div class="rectangle-39-KlxaFc" data-id="326:3710"></div>
-        <div class="rectangle-40-KlxaFc" data-id="326:3711"></div>
-        <div class="rectangle-41-KlxaFc" data-id="326:3712"></div>
-      </div><img class="rectangle-2-ECyKP8" data-id="326:3713" src="Register%20Startup-desktop_files/rectangle-2@2x.png"
-        anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637753a9b8fd1949e1f297d3/img/rectangle-2@2x.png"
+    <div class="visuals-page-03 screen " data-id="326:3970">
+
+      <div class="group-36-xj49YD" onclick="loadMenuMobile('Register Startup')" data-id="326:3971">
+        <div class="ellipse-1-wqngxM" data-id="326:3972"></div>
+        <div class="group-35-wqngxM" data-id="326:3973">
+          <div class="rectangle-21-iXwbjy" data-id="326:3974"></div>
+          <div class="rectangle-22-iXwbjy" data-id="326:3975"></div>
+          <div class="rectangle-23-iXwbjy" data-id="326:3976"></div>
+        </div>
+      </div><img class="rectangle-2-xj49YD" data-id="326:3977" src="Register%20Startup-mobile_files/rectangle-2@2x.png"
+        anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637a1713b560be4e719035a0/img/rectangle-2@2x.png"
         alt="Rectangle 2">
-      <div class="group-36-ECyKP8" onclick="loadMenuDesktop('Register Startup')" data-id="326:3714">
-        <div class="ellipse-1-z3tHmC" data-id="326:3715"></div>
-        <div class="group-35-z3tHmC" data-id="326:3716">
-          <div class="rectangle-21-4APSs7" data-id="326:3717"></div>
-          <div class="rectangle-22-4APSs7" data-id="326:3718"></div>
-          <div class="rectangle-23-4APSs7" data-id="326:3719"></div>
-        </div>
+      <div class="frame-76-xj49YD" data-id="326:3978">
+        <div class="send-message-SREDbA heading-regularh4-18" data-id="326:3979">Send Message</div>
       </div>
-      <div class="rectangle-3-ECyKP8" data-id="326:3720"></div>
-      <div class="rectangle-4-ECyKP8" data-id="326:3721"></div>
-      <div class="frame-55-ECyKP8" data-id="326:3722">
-        <div class="register-startup-pDg9Sy heading-boldh2-24" data-id="326:3723">Register Startup</div>
-        <div class="rectangle-31-pDg9Sy" data-id="326:3724"></div>
+      <div class="group-48-xj49YD" data-id="326:3980">
+        <div class="ellipse-2-cid7x1" data-id="326:3981"></div>
+        <div class="ellipse-4-cid7x1" data-id="326:3982"></div>
+        <div class="rectangle-37-cid7x1" data-id="326:3983"></div>
+        <div class="rectangle-38-cid7x1" data-id="326:3984"></div>
+        <div class="rectangle-39-cid7x1" data-id="326:3985"></div>
+        <div class="rectangle-40-cid7x1" data-id="326:3986"></div>
+        <div class="rectangle-41-cid7x1" data-id="326:3987"></div>
       </div>
-      <div class="frame-76-ECyKP8" data-id="326:3725">
-        <div class="register-7HRG6b heading-regularh4-18" data-id="326:3726">Register</div>
-      </div>
-      <div class="group-46-ECyKP8" data-id="326:3727">
-        <div class="frame-82-yuEefb" data-id="326:3728">
-          <div class="frame-49-KIqhs0" data-id="326:3729">
-            <div class="your-name-EcYnrK heading-regularh4-18" data-id="326:3730">Your Name</div><img
-              class="line-3-EcYnrK" data-id="326:3731" src="Register%20Startup-desktop_files/line-3@2x.svg"
-              anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637753a9b8fd1949e1f297d3/img/line-3@2x.svg"
-              alt="Line 3">
-          </div>
-          <div class="frame-64-KIqhs0" data-id="326:3732">
-            <div class="your-mail-iLNFeJ heading-regularh4-18" data-id="326:3733">Your Mail</div><img
-              class="line-3-iLNFeJ" data-id="326:3734" src="Register%20Startup-desktop_files/line-3@2x.svg"
-              anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637753a9b8fd1949e1f297d3/img/line-3@2x.svg"
-              alt="Line 3">
-          </div>
-          <div class="frame-65-KIqhs0" data-id="326:3735">
-            <div class="your-phone-number-l7ZnmN heading-regularh4-18" data-id="326:3736">Your Phone Number</div><img
-              class="line-3-l7ZnmN" data-id="326:3737" src="Register%20Startup-desktop_files/line-3@2x.svg"
-              anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637753a9b8fd1949e1f297d3/img/line-3@2x.svg"
-              alt="Line 3">
-          </div>
-          <div class="frame-66-KIqhs0" data-id="326:3738">
-            <div class="position-in-startup-V1pVYe heading-regularh4-18" data-id="326:3739">Position in Startup</div>
-            <img class="line-3-V1pVYe" data-id="326:3740" src="Register%20Startup-desktop_files/line-3@2x.svg"
-              anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637753a9b8fd1949e1f297d3/img/line-3@2x.svg"
-              alt="Line 3">
-          </div>
-        </div>
-        <div class="your-info-yuEefb heading-boldh4-18" data-id="326:3741">Your Info</div>
-      </div>
-      <div class="group-47-ECyKP8" data-id="326:3742">
-        <div class="frame-83-vIkxHn" data-id="326:3743">
-          <div class="frame-49-EpGhHv" data-id="326:3744">
-            <div class="startup-name-57gJpn heading-regularh4-18" data-id="326:3745">Startup Name</div><img
-              class="line-3-57gJpn" data-id="326:3746" src="Register%20Startup-desktop_files/line-3@2x.svg"
-              anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637753a9b8fd1949e1f297d3/img/line-3@2x.svg"
-              alt="Line 3">
-          </div>
-          <div class="frame-64-EpGhHv" data-id="326:3747">
-            <div class="founding-year-NLmQFd heading-regularh4-18" data-id="326:3748">Founding Year</div><img
-              class="line-3-NLmQFd" data-id="326:3749" src="Register%20Startup-desktop_files/line-3@2x.svg"
-              anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637753a9b8fd1949e1f297d3/img/line-3@2x.svg"
-              alt="Line 3">
-          </div>
-          <div class="frame-65-EpGhHv" data-id="326:3750">
-            <div class="category-r0IWbE heading-regularh4-18" data-id="326:3751">Category</div><img
-              class="line-3-r0IWbE" data-id="326:3752" src="Register%20Startup-desktop_files/line-3@2x.svg"
-              anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637753a9b8fd1949e1f297d3/img/line-3@2x.svg"
-              alt="Line 3">
-          </div>
-          <div class="frame-66-EpGhHv" data-id="326:3753">
-            <div class="looking-for-zGTrI5 heading-regularh4-18" data-id="326:3754">Looking For ?</div><img
-              class="line-3-zGTrI5" data-id="326:3755" src="Register%20Startup-desktop_files/line-3@2x.svg"
-              anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637753a9b8fd1949e1f297d3/img/line-3@2x.svg"
-              alt="Line 3">
-          </div>
-        </div>
-        <div class="startup-info-vIkxHn heading-boldh4-18" data-id="326:3756">Startup Info</div>
-      </div>
-      <div class="frame-77-ECyKP8" data-id="326:3757">
-        <h1 class="we-partner-with-top-7CI9vt" data-id="326:3758"><span class="span0-pLo0x1">WE PARTNER WITH TOP
-          </span><span class="span1-pLo0x1">ENTREPRENEURS</span><span class="span2-pLo0x1"> FROM VENTURE CREATION</span>
+      <div class="frame-77-xj49YD" data-id="326:3988">
+        <h1 class="we-partner-with-top-MfG32i" data-id="326:3989"><span class="span0-uML4ii">WE PARTNER WITH TOP
+          </span><span class="span1-uML4ii">ENTREPRENEURS</span><span class="span2-uML4ii"> FROM VENTURE CREATION</span>
         </h1>
       </div>
-      <div class="group-48096683-ECyKP8" data-id="326:3759">
-        <div class="group-48096680-x6SMVN" data-id="326:3760"><img class="rectangle-49-a4JgLJ" data-id="326:3761"
-            src="Register%20Startup-desktop_files/rectangle-49@1x.svg"
-            anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637753a9b8fd1949e1f297d3/img/rectangle-49@1x.svg"
-            alt="Rectangle 49">
-          <div class="frame-48096692-a4JgLJ" data-id="326:3762">
-            <div class="frame-48096691-XiBZGW" data-id="326:3763">
-              <div class="frame-48096690-M3fQy4" data-id="326:3764"><img class="rectangle-50-IEb8oH" data-id="326:3765"
-                  src="Register%20Startup-desktop_files/rectangle-50@2x.png"
-                  anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637753a9b8fd1949e1f297d3/img/rectangle-50@2x.png"
-                  alt="Rectangle 50">
-                <div class="demo-text-here-IEb8oH heading-boldh1-30" data-id="326:3766">Demo Text here</div>
+      <div class="frame-48096695-xj49YD" data-id="326:3990">
+        <div class="frame-48096694-V9eowx" data-id="326:3991">
+          <div class="frame-48096693-F593yD" data-id="326:3992">
+            <div class="register-startup-E9pHWB heading-boldh2-24" data-id="326:3993">Register Startup</div>
+            <div class="your-info-E9pHWB heading-boldh4-18" data-id="326:3994">Your Info</div>
+            <div class="frame-82-E9pHWB" data-id="326:3995">
+              <div class="frame-49-fAnVii" data-id="326:3996">
+                <div class="your-name-kB7l0B heading-regularh4-18" data-id="326:3997">Your Name</div><img
+                  class="line-3-kB7l0B" data-id="326:3998" src="Register%20Startup-mobile_files/line-3@2x.svg"
+                  anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637a1713b560be4e719035a0/img/line-3@2x.svg"
+                  alt="Line 3">
               </div>
-              <div class="frame-48096686-M3fQy4" data-id="326:3767">
-                <div class="who-we-are-C8R3u4 heading-regularh5-14" data-id="326:3768">Who We Are</div>
-                <div class="portfolio-C8R3u4 heading-regularh5-14" data-id="326:3769">Portfolio</div>
-                <div class="team-C8R3u4 heading-regularh5-14" data-id="326:3770">Team</div>
-                <div class="value-of-good-C8R3u4 heading-regularh5-14" data-id="326:3771">Value of Good</div>
-                <div class="fireside-ignite-C8R3u4 heading-regularh5-14" data-id="326:3772">Fireside Ignite</div>
+              <div class="frame-64-fAnVii" data-id="326:3999">
+                <div class="your-mail-0NSB6A heading-regularh4-18" data-id="326:4000">Your Mail</div><img
+                  class="line-3-0NSB6A" data-id="326:4001" src="Register%20Startup-mobile_files/line-3@2x.svg"
+                  anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637a1713b560be4e719035a0/img/line-3@2x.svg"
+                  alt="Line 3">
               </div>
-              <div class="frame-48096688-M3fQy4" data-id="326:3773">
-                <div class="group-48096675-JDH6Qz" data-id="326:3774"><img class="linkedin-RV083i" data-id="326:3775"
-                    src="Register%20Startup-desktop_files/linkedin-1@2x.svg"
-                    anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637753a9b8fd1949e1f297d3/img/linkedin-1@2x.svg"
-                    alt="linkedin"></div>
-                <div class="group-48096676-JDH6Qz" data-id="326:3776"><img class="youtube-SVcMKc" data-id="326:3777"
-                    src="Register%20Startup-desktop_files/youtube-1@2x.svg"
-                    anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637753a9b8fd1949e1f297d3/img/youtube-1@2x.svg"
-                    alt="youtube"></div>
+              <div class="frame-65-fAnVii" data-id="326:4002">
+                <div class="your-phone-number-OgBwxI heading-regularh4-18" data-id="326:4003">Your Phone Number</div>
+                <img class="line-3-OgBwxI" data-id="326:4004" src="Register%20Startup-mobile_files/line-3@2x.svg"
+                  anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637a1713b560be4e719035a0/img/line-3@2x.svg"
+                  alt="Line 3">
+              </div>
+              <div class="frame-66-fAnVii" data-id="326:4005">
+                <div class="position-in-startup-mbPc6P heading-regularh4-18" data-id="326:4006">Position in Startup
+                </div><img class="line-3-mbPc6P" data-id="326:4007" src="Register%20Startup-mobile_files/line-3@2x.svg"
+                  anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637a1713b560be4e719035a0/img/line-3@2x.svg"
+                  alt="Line 3">
               </div>
             </div>
-            <div class="frame-48096687-XiBZGW" data-id="326:3778">
-              <div class="all-rights-reserved-GmvfGH heading-regularh5-14" data-id="326:3779">All rights reserved</div>
-              <div class="rectangle-6353-GmvfGH" data-id="326:3780"></div>
-              <div class="privacy-policy-GmvfGH heading-regularh5-14" data-id="326:3781">Privacy Policy</div>
-              <div class="rectangle-6354-GmvfGH" data-id="326:3782"></div>
-              <div class="terms-of-use-GmvfGH heading-regularh5-14" data-id="326:3783">Terms of Use</div>
+            <div class="startup-info-E9pHWB heading-boldh4-18" data-id="326:4008">Startup Info</div>
+            <div class="frame-83-E9pHWB" data-id="326:4009">
+              <div class="frame-49-i3eknL" data-id="326:4010">
+                <div class="startup-name-OxDC70 heading-regularh4-18" data-id="326:4011">Startup Name</div><img
+                  class="line-3-OxDC70" data-id="326:4012" src="Register%20Startup-mobile_files/line-3@2x.svg"
+                  anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637a1713b560be4e719035a0/img/line-3@2x.svg"
+                  alt="Line 3">
+              </div>
+              <div class="frame-64-i3eknL" data-id="326:4013">
+                <div class="founding-year-1CCbYx heading-regularh4-18" data-id="326:4014">Founding Year</div><img
+                  class="line-3-1CCbYx" data-id="326:4015" src="Register%20Startup-mobile_files/line-3@2x.svg"
+                  anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637a1713b560be4e719035a0/img/line-3@2x.svg"
+                  alt="Line 3">
+              </div>
+              <div class="frame-65-i3eknL" data-id="326:4016">
+                <div class="category-2TiY3T heading-regularh4-18" data-id="326:4017">Category</div><img
+                  class="line-3-2TiY3T" data-id="326:4018" src="Register%20Startup-mobile_files/line-3@2x.svg"
+                  anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637a1713b560be4e719035a0/img/line-3@2x.svg"
+                  alt="Line 3">
+              </div>
+              <div class="frame-66-i3eknL" data-id="326:4019">
+                <div class="looking-for-nNx5Ot heading-regularh4-18" data-id="326:4020">Looking For ?</div><img
+                  class="line-3-nNx5Ot" data-id="326:4021" src="Register%20Startup-mobile_files/line-3@2x.svg"
+                  anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637a1713b560be4e719035a0/img/line-3@2x.svg"
+                  alt="Line 3">
+              </div>
+            </div>
+          </div>
+          <div class="frame-76-F593yD" data-id="326:4022">
+            <div class="register-VZ6Iys heading-regularh4-18" data-id="326:4023">Register</div>
+          </div>
+        </div>
+      </div>
+      <div class="group-48096705-xj49YD" data-id="326:4024">
+        <div class="group-48096704-qB8yiN" data-id="326:4025">
+          <div class="rectangle-50-rLWxw7" data-id="326:4026"></div>
+          <div class="group-48096703-rLWxw7" data-id="326:4027">
+            <div class="frame-78-zol5ix" data-id="326:4028">
+              <p class="subscribe-to-to-new-letters-2WinUJ heading-boldh3-21" data-id="326:4029">Subscribe to to New
+                Letters</p>
+              <p class="lorem-ipsum-is-simpl-2WinUJ heading-regularh6-12" data-id="326:4030">Lorem Ipsum is simply dummy
+                text of the printing and typesetting industry</p>
+            </div>
+            <div class="frame-77-zol5ix" data-id="326:4031">
+              <div class="frame-75-v4zMOB" data-id="326:4032">
+                <div class="subscribe-to-newsletter-j1tPcJ heading-regularh5-14" data-id="326:4033">Subscribe to
+                  Newsletter</div>
+              </div>
+              <div class="frame-76-v4zMOB" data-id="326:4034">
+                <div class="subscribe-ML31H8 heading-regularh5-14" data-id="326:4035">Subscribe</div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="group-48096682-x6SMVN" data-id="326:3784">
-          <div class="rectangle-50-160wS4" data-id="326:3785"></div>
-          <div class="group-48096681-160wS4" data-id="326:3786">
-            <div class="frame-48096684-dFiyXD" data-id="326:3787">
-              <div class="frame-78-hdPG06" data-id="326:3788">
-                <p class="subscribe-to-to-new-letters-x6wY1y heading-boldh2-24" data-id="326:3789">Subscribe to to New
-                  Letters</p>
-                <p class="lorem-ipsum-is-simpl-x6wY1y heading-regularh4-18" data-id="326:3790">Lorem Ipsum is simply
-                  dummy text of the printing and typesetting industry</p>
-              </div>
-              <div class="frame-77-hdPG06" data-id="326:3791">
-                <div class="frame-75-Xl1O84" data-id="326:3792">
-                  <div class="subscribe-to-newsletter-s6xUbo heading-regularh4-18" data-id="326:3793">Subscribe to
-                    Newsletter</div>
+        <div class="group-48096702-qB8yiN" data-id="326:4036">
+          <div class="group-48096643-j2LKiP" data-id="326:4037">
+            <div class="rectangle-49-fuRpal" data-id="326:4038"></div>
+          </div>
+          <div class="group-48096701-j2LKiP" data-id="326:4039">
+            <div class="group-48096700-QAjtUR" data-id="326:4040">
+              <div class="frame-48096687-VTyoK4" data-id="326:4041">
+                <div class="all-rights-reserved-5Jh2Pe heading-regularh5-14" data-id="326:4042">All rights reserved
                 </div>
-                <div class="frame-76-Xl1O84" data-id="326:3794">
-                  <div class="subscribe-8sMfST heading-regularh4-18" data-id="326:3795">Subscribe</div>
-                </div>
+                <div class="rectangle-6353-5Jh2Pe" data-id="326:4043"></div>
+                <div class="privacy-policy-5Jh2Pe heading-regularh5-14" data-id="326:4044">Privacy Policy</div>
               </div>
+              <div class="terms-of-use-VTyoK4 heading-regularh5-14" data-id="326:4045">Terms of Use</div>
             </div>
-            <div class="group-48096674-dFiyXD" data-id="326:3796">
-              <div class="rectangle-74-Fom32C" data-id="326:3797"></div>
-              <div class="rectangle-70-Fom32C" data-id="326:3798"></div>
+            <div class="frame-48096728-QAjtUR" data-id="326:4046">
+              <div class="frame-48096727-B97U39" data-id="326:4047"><img class="rectangle-50-skIzQz" data-id="326:4048"
+                  src="Register%20Startup-mobile_files/rectangle-2@2x.png"
+                  anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637a1713b560be4e719035a0/img/rectangle-2@2x.png"
+                  alt="Rectangle 50">
+                <div class="demo-text-here-skIzQz heading-boldh4-18" data-id="326:4049">Demo Text here</div>
+              </div>
+              <div class="frame-48096686-B97U39" data-id="326:4050">
+                <div class="who-we-are-xxR3sf heading-regularh5-14" data-id="326:4051">Who We Are</div>
+                <div class="portfolio-xxR3sf heading-regularh5-14" data-id="326:4052">Portfolio</div>
+                <div class="team-xxR3sf heading-regularh5-14" data-id="326:4053">Team</div>
+                <div class="value-of-good-xxR3sf heading-regularh5-14" data-id="326:4054">Value of Good</div>
+                <div class="fireside-ignite-xxR3sf heading-regularh5-14" data-id="326:4055">Fireside Ignite</div>
+              </div>
+              <div class="frame-58-B97U39" data-id="326:4056"><img class="facebook-XL9im9" data-id="326:4057"
+                  src="Register%20Startup-mobile_files/facebook@2x.svg"
+                  anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637a1713b560be4e719035a0/img/facebook@2x.svg"
+                  alt="facebook"><img class="linkedin-XL9im9" data-id="326:4058"
+                  src="Register%20Startup-mobile_files/linkedin@2x.svg"
+                  anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637a1713b560be4e719035a0/img/linkedin@2x.svg"
+                  alt="linkedin"><img class="link-XL9im9" data-id="326:4059"
+                  src="Register%20Startup-mobile_files/link@2x.svg"
+                  anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637a1713b560be4e719035a0/img/link@2x.svg"
+                  alt="link"><img class="twitter-XL9im9" data-id="326:4060"
+                  src="Register%20Startup-mobile_files/twitter@2x.svg"
+                  anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637a1713b560be4e719035a0/img/twitter@2x.svg"
+                  alt="twitter"></div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <script src="Register%20Startup-desktop_files/free-website-banner-anima-5.min.js" async=""></script>
-  <script defer="defer" src="Register%20Startup-desktop_files/restart-btn.min.js"></script>
+  <script src="Register%20Startup-mobile_files/free-website-banner-anima-5.min.js" async=""></script>
+  <script defer="defer" src="Register%20Startup-mobile_files/restart-btn.min.js"></script>
   <div id="anima-interface" data-turbo-permanent="true" class="idle">
     <!---->
     <div id="anima-comment-popover" class="popover top" role="tooltip" style="left: -205px; top: -220px;">
@@ -2001,12 +1970,12 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
             Login to your account to leave comments. Don't have an account? Sign up for free!
           </p>
           <a target="_blank" rel="noopener noreferrer" class="btn"
-            href="https://projects.animaapp.com/p/undefined/s/visuals-page-17?mode=comments&amp;utm_campaign=add-comment&amp;utm_medium=add-comment&amp;utm_source=animaapp.io">Add
+            href="https://projects.animaapp.com/p/undefined/s/visuals-page-03?mode=comments&amp;utm_campaign=add-comment&amp;utm_medium=add-comment&amp;utm_source=animaapp.io">Add
             comment</a>
         </div>
 
         <div style="display:flex;align-items:center;justify-content:center;padding-right:20px">
-          <img src="Register%20Startup-desktop_files/comment-illustration.svg">
+          <img src="Register%20Startup-mobile_files/comment-illustration.svg">
         </div>
       </div>
     </div>
@@ -2022,12 +1991,12 @@ Get developer-friendly React or HTML/CSS code for this project at: https://proje
             Don’t have an account? Sign up for free!
           </p>
           <a target="_blank" rel="noopener noreferrer" class="btn"
-            href="https://projects.animaapp.com/p/undefined/s/visuals-page-17?mode=code&amp;utm_campaign=get-code&amp;utm_medium=get-code&amp;utm_source=animaapp.io">
+            href="https://projects.animaapp.com/p/undefined/s/visuals-page-03?mode=code&amp;utm_campaign=get-code&amp;utm_medium=get-code&amp;utm_source=animaapp.io">
             Get code
           </a>
         </div>
 
-        <img src="Register%20Startup-desktop_files/code-illustration.svg">
+        <img src="Register%20Startup-mobile_files/code-illustration.svg">
       </div>
     </div>
     <div class="omniview-anima-action-links" id="actions-wrap">
