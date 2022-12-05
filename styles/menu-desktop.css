@@ -341,7 +341,7 @@ input:focus {
 .visuals-page-15 .NormalBox {
   background-color: transparent;
   letter-spacing: 3.20px;
-  line-height: normal;
+  /* line-height: normal; */
   mix-blend-mode: normal;
   position: relative;
   text-align: left;

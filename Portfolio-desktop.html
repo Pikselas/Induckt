@@ -612,6 +612,7 @@
     .visuals-page-25 .span0-uJeB1T {
       color: var(--visual-colorblack-c1);
       font-style: normal;
+      font-size: xxx-large;
     }
 
     .visuals-page-25 .span1-uJeB1T {
@@ -621,6 +622,7 @@
     .visuals-page-25 .span2-uJeB1T {
       color: var(--visual-colorblack-c1);
       font-style: normal;
+      font-size: xxx-large;
     }
 
     .visuals-page-25 .group-48096710-MVHrhk {
@@ -1542,7 +1544,7 @@
               class="span1-uJeB1T spacegrotesk-bold-red-48px">Strong</span><span class="span2-uJeB1T"> Portfolio</span>
           </div>
         </div>
-        <!-- <link rel="stylesheet" href="./stl.css"> -->
+        <link rel="stylesheet" href="./stl.css">
         <style>
           .Trust
           {
@@ -1552,24 +1554,45 @@
             top: 125px;
             left: calc(20vh)
           }
-          .Trust img
+          .portMain
+          {
+            width: max-content;
+            display: inline-block;
+            transition: all .5s ease;
+          }
+          .Trust .IMG
           {
             padding: 65px;
             border: 3px solid #E0E0E0;
             position: relative;
           }
+          .portMain .ExpandedPanel
+          {
+            transition: all .5s ease;
+            position:relative;
+            top: -365px;
+            opacity:0;
+            z-index: 1;
+          }
+          .portMain:hover .ExpandedPanel
+          {
+            opacity:1;
+          }
+          .portMain:hover 
+          {
+            width: 700px;
+          }
         </style>
-        <div class="Trust">
-          <img src="./triumph.png">
-          <img src="./triumph.png">
-          <img src="./triumph.png">
-          <img src="./triumph.png">
-          <img src="./triumph.png">
-          <img src="./triumph.png">
-          <img src="./triumph.png">
-          <img src="./triumph.png">
-          <img src="./triumph.png">
+        <script src="./scripts/portfolioTile.js"></script>
+        <div id="XC" class="Trust">
+          
         </div>
+        <script>
+          let x = document.getElementById("XC");
+          x.appendChild(createTileDesktop('Triumph' , "" , "" , "" , "./triumph.png",""));
+          x.appendChild(createTileDesktop('Triumph' , "" , "" , "" , "./triumph.png",""));
+          x.appendChild(createTileDesktop('Triumph' , "" , "" , "" , "./triumph.png",""));
+        </script>
       </div>
       <div class="group-48096683-kwomeS" data-id="326:2921">
         <div class="group-48096680-ZgkQuw" data-id="326:2922"><img class="rectangle-49-0JeSP3" data-id="326:2923"

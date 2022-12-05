@@ -73,6 +73,12 @@
       50% { left:77.94%;transform: rotate(66.05deg);}
       100% { left: 66.1%;transform: rotate(35.03deg);}
     }
+    @keyframes ANMB26
+    {
+      0% { height: 99px;}
+      50% { height: 119px;}
+      100% { height: 99px;}
+    }
   </style>
   <style id="st_globalStyles">
 
@@ -645,13 +651,24 @@
 
     .visuals-page-125 .span4-Uxrhnu {}
 
+    @keyframes LineUp
+    {
+      0%{}
+      15%{width: 500px;}
+      75%{left: 500px;width: 50px;}
+      100%{}
+    }
+
     .visuals-page-125 .rectangle-31-N2lrVH {
+      transition: all 1.5s;
       background-color: var(--visual-colorred-c4);
       border: 1px none;
       height: 5px;
-      min-width: 138px;
+      width: 138px;
       mix-blend-mode: normal;
       position: relative;
+      left: 0px;
+      animation: LineUp 3s ease-out infinite;
     }
 
     .visuals-page-125 .ellipse-2-9hwOwy {
@@ -659,7 +676,7 @@
       border: 1px none;
       border-radius: 285px;
       height: 570px;
-      left: 1150px;
+      left: 1200px;
       mix-blend-mode: normal;
       position: absolute;
       top: 184px;
@@ -671,7 +688,7 @@
       border: 1px none;
       border-radius: 258px;
       height: 516px;
-      left: 1177px;
+      left: 1227px;
       mix-blend-mode: normal;
       position: absolute;
       top: 211px;
@@ -682,7 +699,7 @@
       background-color: var(--visual-colorred-c4);
       border: 1px none;
       height: 67px;
-      left: 1269px;
+      left: 1299px;
       mix-blend-mode: normal;
       position: absolute;
       top: 151px;
@@ -694,7 +711,7 @@
       background-color: #fd474354;
       border: 1px none;
       height: 29px;
-      left: 1242px;
+      left: 1272px;
       mix-blend-mode: normal;
       position: absolute;
       top: 210px;
@@ -706,7 +723,7 @@
       background-color: var(--visual-colorred-c4);
       border: 1px none;
       height: 67px;
-      left: 1191px;
+      left: 1231px;
       mix-blend-mode: normal;
       position: absolute;
       top: 210px;
@@ -718,7 +735,7 @@
       background-color: #fec2c1;
       border: 1px none;
       height: 126px;
-      left: 1131px;
+      left: 1171px;
       mix-blend-mode: normal;
       position: absolute;
       top: 205px;
@@ -730,7 +747,7 @@
       background-color: #fd4744;
       border: 1px none;
       height: 91px;
-      left: 1121px;
+      left: 1161px;
       mix-blend-mode: normal;
       position: absolute;
       top: 279px;
@@ -785,7 +802,7 @@
       background-color: var(--visual-colorred-c4);
       border: 4px none;
       height: 845px;
-      left: 1280px;
+      right: 0%;
       mix-blend-mode: normal;
       position: absolute;
       top: 2039px;
@@ -891,7 +908,7 @@
       font-style: normal;
       font-weight: 400;
       height: auto;
-      left: 70px;
+      left: 150px;
       line-height: 27px;
       mix-blend-mode: normal;
       position: absolute;
@@ -906,7 +923,7 @@
       font-style: normal;
       font-weight: 400;
       height: auto;
-      left: 70px;
+      left: 150px;
       line-height: 27px;
       mix-blend-mode: normal;
       position: absolute;
@@ -1666,6 +1683,7 @@
       position: absolute;
       top: 0px;
       width: 42px;
+      animation: ANMB26 1s ease-in-out infinite;
     }
 
     .visuals-page-125 .component-1-l3qwl3 {
@@ -2323,7 +2341,7 @@
     .visuals-page-125 .group-48096741-9hwOwy {
       background-color: transparent;
       height: 783px;
-      left: 70px;
+      left: calc(50% - 650px);
       position: absolute;
       top: 2924px;
       width: 1300px;
@@ -2739,7 +2757,7 @@
     .visuals-page-125 .group-48096739-9hwOwy {
       background-color: transparent;
       height: 852px;
-      left: 57px;
+      left: calc(50% - 657px);
       position: absolute;
       top: 1087px;
       width: 1313px;
@@ -2943,6 +2961,13 @@
       width: 243px;
     }
 
+    @keyframes MoveDown
+    {
+      0%{}
+      50%{top: 672px;}
+      100%{}
+    }
+
     .visuals-page-125 .rectangle-6368-9u969w {
       background-color: transparent;
       border: 2px solid;
@@ -2952,6 +2977,14 @@
       position: absolute;
       top: 571px;
       width: 61px;
+      animation: MoveDown 1.5s ease-in infinite;
+    }
+
+    @keyframes slide
+    {
+      0% {}
+      50%{left: 105px;}
+      100%{}
     }
 
     .visuals-page-125 .rectangle-6370-9u969w {
@@ -2963,6 +2996,13 @@
       position: absolute;
       top: 21px;
       width: 61px;
+      animation: slide 2s cubic-bezier(.78,.05,.42,1.52) infinite;
+    }
+
+    @keyframes sld{
+      0%{}
+      50%{left:600px}
+      100%{}
     }
 
     .visuals-page-125 .rectangle-6371-9u969w {
@@ -2974,6 +3014,15 @@
       position: absolute;
       top: 540px;
       width: 61px;
+      animation: sld 1.5s ease-in infinite;
+    }
+
+    @keyframes minimize
+    {
+      0%{}
+      45%{left: 750px;}
+      85%{top: 500px;}
+      100%{}
     }
 
     .visuals-page-125 .rectangle-6372-9u969w {
@@ -2985,6 +3034,14 @@
       position: absolute;
       top: 571px;
       width: 181px;
+      animation: minimize 1.5s ease-out infinite;
+    }
+
+    @keyframes moveLeft
+    {
+      0%{}
+      50%{ left: 1025px; }
+      100%{}
     }
 
     .visuals-page-125 .rectangle-6375-9u969w {
@@ -2996,6 +3053,14 @@
       position: absolute;
       top: 733px;
       width: 181px;
+      animation:  moveLeft 1.5s ease-in-out infinite;
+    }
+
+    @keyframes moveRight
+    {
+      0%{}
+      50%{left: 1100px;}
+      100%{}
     }
 
     .visuals-page-125 .rectangle-6376-9u969w {
@@ -3007,6 +3072,14 @@
       position: absolute;
       top: 651px;
       width: 110px;
+      animation: moveRight 1.5s ease-in-out infinite;
+    }
+
+    @keyframes MoveUp
+    {
+      0%{}
+      50%{top:580px}
+      100%{}
     }
 
     .visuals-page-125 .rectangle-6369-9u969w {
@@ -3018,6 +3091,14 @@
       position: absolute;
       top: 662px;
       width: 61px;
+      animation: MoveUp 1.5s ease-in infinite;
+    }
+
+    @keyframes Updown
+    {
+      0%{}
+      50%{top: 20px;}
+      100%{}
     }
 
     .visuals-page-125 .rectangle-6373-9u969w {
@@ -3029,6 +3110,14 @@
       position: absolute;
       top: 0px;
       width: 85px;
+      animation: Updown 1s ease-in-out infinite;
+    }
+
+    @keyframes Sld
+    {
+      0%{}
+      50%{left: 1200px;}
+      100%{}
     }
 
     .visuals-page-125 .rectangle-6374-9u969w {
@@ -3040,6 +3129,7 @@
       position: absolute;
       top: 146px;
       width: 85px;
+      animation: Sld 1s ease-in-out infinite;
     }
 
     .visuals-page-125 .vector-1-9u969w {
@@ -3386,6 +3476,11 @@
         display: none !important;
       }
     }
+    @keyframes slide
+    {
+      0% {}
+      50%{left: 85px;}
+    }
   </style>
 </head>
 
@@ -3414,13 +3509,70 @@
             class="span4-Uxrhnu spacegrotesk-bold-woodsmoke-48px">” to bring next revolution in the world.</span></h1>
         <div class="rectangle-31-N2lrVH" data-id="326:3110"></div>
       </div>
+      <style>
+        @keyframes sunshine
+        {
+          0% {}
+          50% {transform: rotate(-85deg);}
+          100% {}
+        }
+        @keyframes brightNess1
+        {
+          0%{}
+          50%{height: 50px;top:168px}
+          100%{}
+        }
+        @keyframes brightNess2
+        {
+          0%{}
+          50%{height: 100px;top:147px;left: 1245px;}
+          100%{}
+        }
+        @keyframes brightNess3
+        {
+          0%{}
+          50%{height: 50px;top:227px}
+          100%{}
+        }
+        @keyframes brightNess4
+        {
+          0%{}
+          50%{height: 60px;top:255px;left: 1190px;}
+          100%{}
+        }
+        .SunPanel
+        {
+          height: max-content;
+          width: max-content;
+          transform-origin: 1490px 475px;
+          animation: sunshine 5s ease infinite;
+        }
+        .rectangle-37-9hwOwy
+        {
+          animation: brightNess1 1s ease-in infinite;
+        }
+        .rectangle-38-9hwOwy
+        {
+          animation: brightNess2 2s ease-in infinite;
+        }
+        .rectangle-39-9hwOwy
+        {
+          animation: brightNess3 2s ease-in infinite;
+        }
+        .rectangle-40-9hwOwy
+        {
+          animation: brightNess4 1s ease-in infinite;
+        }
+      </style>
       <div class="ellipse-2-9hwOwy" data-id="326:3111"></div>
       <div class="ellipse-4-9hwOwy" data-id="326:3112"></div>
+    <div class="SunPanel">
       <div class="rectangle-37-9hwOwy" data-id="326:3113"></div>
       <div class="rectangle-38-9hwOwy" data-id="326:3114"></div>
       <div class="rectangle-39-9hwOwy" data-id="326:3115"></div>
       <div class="rectangle-40-9hwOwy" data-id="326:3116"></div>
       <div class="rectangle-41-9hwOwy" data-id="326:3117"></div>
+    </div>
       <div class="breif-of-investment-9hwOwy spacegrotesk-bold-white-48px" data-id="326:3119"><span
           class="span0-Gu9WN3 spacegrotesk-bold-woodsmoke-48px">Breif of </span><span
           class="span1-Gu9WN3 spacegrotesk-bold-red-48px-2">Investment</span></div>
@@ -3640,10 +3792,13 @@
             let Frame = document.createElement("iframe");
             Frame.src = "./pitch.html";
             document.body.appendChild(Frame);
-            Frame.style.width = "100%";
-            Frame.style.height = "100%";
+            Frame.style.width = "750px";
+            Frame.style.height = "650px";
             Frame.style.position = "fixed";
-            Frame.style.top = "0";
+            Frame.style.top = "calc(50% - 325px)";
+            Frame.style.left = "calc(50% - 375px)";
+            Frame.style.borderRadius = "15px";
+            Frame.style.boxShadow = "0px 0px 10px black";
             Frame.contentWindow.onload = ()=>{
                 Frame.contentWindow.document.getElementById("PitchClose").onclick = function()
                 {
@@ -3779,10 +3934,7 @@
         <div class="rectangle-6376-9u969w" data-id="326:3314"></div>
         <div class="rectangle-6369-9u969w" data-id="326:3315"></div>
         <div class="rectangle-6373-9u969w" data-id="326:3316"></div>
-        <div class="rectangle-6374-9u969w" data-id="326:3317"></div><img class="vector-1-9u969w" data-id="326:3318"
-          src="Home-desktop_files/vector-1@2x.svg"
-          anima-src="https://cdn.animaapp.com/projects/63739e4595a22314a0fc2590/releases/637dd97fe0a1dc4f8c005ff8/img/vector-1@2x.svg"
-          alt="Vector 1">
+        <div class="rectangle-6374-9u969w" data-id="326:3317"></div>
       </div>
     </div>
   </div>
